@@ -9,6 +9,7 @@
 | [OpenSupaplex](https://github.com/sergiou87/open-supaplex) | Working. Need last round of testing and packaging |
 | [laserkombat](https://github.com/sharkwouter/laserkombat) | Need last round of testing and packaging |
 | [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. tested on  Arkos, Jelos, and uOS. requires humble version (or gog?) |
+| [LBreakoutHD](https://lgames.sourceforge.io/LBreakoutHD/) | Working. Needs testing|
 | [Capsized](https://www.humblebundle.com/store/capsized) | Works. Uses mon. Needs testing on other os' requires humble version (or gog?) |
 | [sdlpal](https://github.com/sdlpal/sdlpal) | Builds and runs but needs work on controls |
 | [sdl-sopwith](https://github.com/fragglet/sdl-sopwith) | Builds and runs but needs work on controls |
@@ -26,7 +27,6 @@
 | [Wenova](https://github.com/LManaslu/wenova) | Builds and runs but has graphics issues and multiplayer|
 | [Water Closet](https://github.com/stephenjsweeney/waterCloset) | Builds and runs but has controller issues|
 | [Shockolate](https://github.com/Interrupt/systemshock) | Builds and starts but throws error. Might just be issue with files |
-| [LBreakoutHD](https://lgames.sourceforge.io/LBreakoutHD/) | Builds and run but is a little big. Should checkout LBreakout2 (older non hd version)|
 | [Atomiks](https://atomiks.sourceforge.net/) | Builds and runs but has issue with screen refresh (buffering issue?) |
 | [Domino-Chain](https://domino-chain.gitlab.io/) | Builds and runs but has issue with screen refresh (buffering issue?) |
 
