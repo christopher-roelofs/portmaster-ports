@@ -6,9 +6,9 @@
 | [Znax](https://github.com/joyrider3774/Znax) | Working. Need last round of testing and packaging |
 | [F1-Race](https://github.com/EXL/F1-Race) | Working. Need last round of testing and packaging |
 | [Celeste Classic](https://github.com/lemon32767/ccleste) | Working. Need last round of testing and packaging |
-| [OpenSupaplex](https://github.com/sergiou87/open-supaplex) | Working. Need last round of testing and packaging |
+| [OpenSupaplex](https://github.com/sergiou87/open-supaplex) | Working. uOS, Jelos, and Arkos. needs finalizing and packaging |
 | [laserkombat](https://github.com/sharkwouter/laserkombat) | Need last round of testing and packaging |
-| [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. tested on  Arkos, Jelos, and uOS. requires humble version (or gog?) |
+| [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. tested on  Arkos, Jelos, and uOS. needs finalizing and packaging. requires humble version (or gog?) |
 | [LBreakoutHD](https://lgames.sourceforge.io/LBreakoutHD/) | Working. Needs testing|
 | [Capsized](https://www.humblebundle.com/store/capsized) | Works. Uses mon. Needs testing on other os' requires humble version (or gog?) |
 | [sdlpal](https://github.com/sdlpal/sdlpal) | Builds and runs but needs work on controls |
