@@ -8,8 +8,8 @@
 | [Celeste Classic](https://github.com/lemon32767/ccleste) | Working. Need last round of testing and packaging |
 | [OpenSupaplex](https://github.com/sergiou87/open-supaplex) | Working. Need last round of testing and packaging |
 | [laserkombat](https://github.com/sharkwouter/laserkombat) | Need last round of testing and packaging |
-| [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. Needs testing on other os' requires huble version (or gog?) |
-| [Capsized](https://www.humblebundle.com/store/capsized) | Works. Uses mon. Needs testing on other os' requires huble version (or gog?) |
+| [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. Needs testing on other os' requires humble version (or gog?) |
+| [Capsized](https://www.humblebundle.com/store/capsized) | Works. Uses mon. Needs testing on other os' requires humble version (or gog?) |
 | [sdlpal](https://github.com/sdlpal/sdlpal) | Builds and runs but needs work on controls |
 | [sdl-sopwith](https://github.com/fragglet/sdl-sopwith) | Builds and runs but needs work on controls |
 | [Vonsh](https://github.com/aurb/vonsh) | Builds and runs but needs some work or resolution |
