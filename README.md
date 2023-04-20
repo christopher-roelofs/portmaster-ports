@@ -29,6 +29,18 @@
 | [Shockolate](https://github.com/Interrupt/systemshock) | Builds and starts but throws error. Might just be issue with files |
 | [Atomiks](https://atomiks.sourceforge.net/) | Builds and runs but has issue with screen refresh (buffering issue?) |
 | [Domino-Chain](https://domino-chain.gitlab.io/) | Builds and runs but has issue with screen refresh (buffering issue?) |
+| [TamaTool](https://github.com/christopher-roelofs/tamatool) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#tamatool-tamagotchi-p1-explorer) |
+| [Anarch](https://gitlab.com/drummyfish/anarch) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#anarch) |
+| [Cosmo-Engine](https://github.com/yuv422/cosmo-engine) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#cosmo-engine) |
+| [Dave Gnukem](https://github.com/davidjoffe/dave_gnukem) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#dave-gnukem) |
+| [DungeonRush](https://github.com/Rapiz1/DungeonRush) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#dungeon-rush) |
+| [Enigma](https://github.com/Enigma-Game/Enigma) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#enigma) |
+| [Freegemas](https://github.com/JoseTomasTocino/freegemas) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#freegemas) |
+| [Mirror Magic](https://www.artsoft.org/mirrormagic) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#mirror-magic) |
+| [Multris](https://github.com/RustyReich/Multris) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#multris) |
+| [OpenBlok](https://github.com/mmatyas/openblok) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#openblok) |
+| [Simple Sokoban](http://simplesok.osdn.io/) | Submitted to [PortMaster](https://github.com/christianhaitian/PortMaster/wiki#simple-sokoban) |
+
 
 
 
