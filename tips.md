@@ -7,3 +7,6 @@ wget 'http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.gue
 
 
 if you have issue with aclocal not being found - Before running ./configure try running autoreconf -f -i
+
+
+delete the last commit for a branch - git reset --soft HEAD~1 and the git push --force
