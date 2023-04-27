@@ -10,3 +10,5 @@ if you have issue with aclocal not being found - Before running ./configure try 
 
 
 delete the last commit for a branch - git reset --soft HEAD~1 and the git push --force
+
+compile all cpp files - g++ *.cpp -o rubiks -lGL -lGLU -lglut -lSDL2
