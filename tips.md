@@ -13,3 +13,4 @@ delete the last commit for a branch - git reset --soft HEAD~1 and the git push -
 
 compile all cpp files - g++ *.cpp -o trogdor -lSDLmain -lSDL -lSDL_image -lSDL_ttf -lSDL_mixer
 
+cmake -DUSE_GLES2=ON -DNO_SHADERC=on -DCHECK_ASSETS=off  ..
