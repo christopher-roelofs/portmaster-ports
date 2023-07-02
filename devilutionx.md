@@ -1,4 +1,7 @@
+
 ## DevilutiuonX (Diablo 1) v1.5.0
+
+![](https://user-images.githubusercontent.com/204594/113578478-26912400-9623-11eb-9ff6-9bd9717462b6.png)
 
 **Port Type:** Native
 
@@ -39,3 +42,11 @@ Default controller mappings (A/B/X/Y as in Nintendo layout, so the rightmost but
 -   Select + Right analog click: right mouse click (alt: Select + R1)
 -   Select + L2: quest log (alt: Start + Y)
 -   Select + R2: spell book (alt: Start + B)
+
+**Developer Notes:**
+
+Build instructions:
+
+git clone --recursive https://github.com/diasurgical/devilutionX.git 
+git checkout tags/{version}
+cmake -S. -Bbuild -DCMAKE_BUILD_TYPE="Release" -DDISABLE_ZERO_TIER=ON -DBUILD_TESTING=OFF -DBUILD_ASSETS_MPQ=OFF -DDEBUG=OFF -DPREFILL_PLAYER_NAME=ON
