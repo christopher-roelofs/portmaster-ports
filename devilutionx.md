@@ -1,4 +1,4 @@
-## [DevilutiuonX] () (Diablo 1) v1.5.0
+## DevilutiuonX (Diablo 1) v1.5.0
 
 **Port Type:** Native
 
