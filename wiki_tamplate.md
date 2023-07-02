@@ -3,6 +3,8 @@
 
 {image}
 
+**Port Type:**
+
 **Website:** 
 
 **Description**
