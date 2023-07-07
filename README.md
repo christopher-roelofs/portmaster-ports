@@ -21,6 +21,7 @@
 | [NPuzzle](https://github.com/ashih42/n_puzzle) | https://github.com/christianhaitian/PortMaster/wiki#npuzzle
 | [OpenBlok](https://github.com/mmatyas/openblok) | https://github.com/christianhaitian/PortMaster/wiki#openblok |
 | [Open Great Giana Sisters](https://github.com/bugix/OpenGGS) | https://github.com/christianhaitian/PortMaster/wiki#open-great-giana-sisters | 
+| [OpenSyobon](https://github.com/weimzh/syobon) | https://github.com/christianhaitian/PortMaster/wiki#opensyobon
 | [OpenSupaplex](https://github.com/sergiou87/open-supaplex) | https://github.com/christianhaitian/PortMaster/wiki#opensupaplex |
 | [Raptor](https://github.com/skynettx/raptor) | https://github.com/christianhaitian/PortMaster/wiki#raptor
 | [Retro Time](https://github.com/joyrider3774/RetroTime) | https://github.com/christianhaitian/PortMaster/wiki#retro-time
