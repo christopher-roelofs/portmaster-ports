@@ -173,8 +173,17 @@ connect all computers to a network server, bring water to the taps, etc.
 | Amoebax | https://github.com/OSSGames/GAME-SDL-PUZZLE-Amoebax | puyo puyu puzzle game |
 | Super Methane Brothers | https://github.com/szymor/methane-sdl/tree/master | Super Methane Brothers SDL-based port |
 | The Secret Chronicles of Dr. M. | https://github.com/Secretchronicles/TSC | An open source two-dimensional platform game. |
-
-
+| Savage Wheels | https://github.com/kenamick/savagewheels |  2D car crashing game armageddon |
+| GDash | https://github.com/meonwax/gdash | A Boulder Dash clone, intended to be as close to the original as possible |
+| MiceAmaze | https://www.miceamaze.org/ |  maze with mice and snakes. The goal is to bring the most mice to your house by placing arrows on the maze floor |
+| Tapan Kaikki 4: Bloodshed | https://github.com/suomipelit/tapankaikki4 | Open source port of Tapan Kaikki 4: Bloodshed |
+| ProtoType | https://github.com/ptitSeb/prototype | RType remake |
+| Donkey Bolonkey | https://github.com/dacap/donkeybolonkey | A Rat Poker clone | 
+| Tuxpuck |  https://github.com/jkroon81/tuxpuck | air hockey |
+| bagman | https://github.com/jotd666/bagman | remake of the 1982 arcade game | 
+| Fish Fillets | https://fillets.sourceforge.net/download.php | port of the wonderful puzzle game Fish Fillets from ALTAR interactive |
+| kiki the nano bot | https://github.com/a-sf-mirror/kiki | 3-D puzzle game . It is basically a mixture of the games Sokoban and Kula-World | 
+| Zik Zak | https://github.com/atextor/zikzak | 3d puzzle and reaction game |
 
 
 
