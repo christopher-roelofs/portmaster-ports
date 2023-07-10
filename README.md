@@ -40,7 +40,7 @@
 
 **Work in Progress Ports**
 | Port | Status |
-| --- | --- 
+| --- | --- |
 | [La Mulana](https://www.humblebundle.com/store/lamulana) | Works. Uses box86. Issue in current version of ArkOS tested on, Jelos, and uOS. needs finalizing and packaging. requires humble version (or gog?) |
 | [Capsized](https://www.humblebundle.com/store/capsized) | Works. Uses mon. Needs testing on other os' requires humble version (or gog?) |
 | [sdlpal](https://github.com/sdlpal/sdlpal) | Builds and runs but needs work on controls |
@@ -61,6 +61,78 @@
 | [Atomiks](https://atomiks.sourceforge.net/) | Builds and runs but has issue with screen refresh (buffering issue?) |
 | [Domino-Chain](https://domino-chain.gitlab.io/) | Builds and runs but has issue with screen refresh (buffering issue?) |
 | [Gravity Defied](https://github.com/rgimad/gravity_defied_cpp) | builds and runs well. Issue with saving after the first few levels
+| [Freezzt](https://github.com/inmatarian/freezzt) | compiles and runs, need to test games
+| [Attack of the PETSCII Robots SDL](https://github.com/zeropolis79/PETSCIIRobots-SDL) | resolution topo small
+
+
+
+
+**Port Candidates**
+| Name | URL | Description 
+| --- | --- | --- |
+| DSTROY | http://narroin.free.fr/dstroy/ | bomberman-like
+| OceanPop  | https://github.com/sharkwouter/oceanpop | match-3 |
+| galaxyv2| https://sourceforge.net/projects/galaxyv2/ | space shpoter | 
+| T-Crisis_4 | https://bitbucket.org/jesseleepalser/t-crisis_4_sdl2/src/master/ | Tetris |
+| LowRes NX | https://github.com/timoinutilis/lowres-nx/tree/master |  Fantasy console
+| LowRes Poink! | https://github.com/moechofe/lowresnx-poink | Poing clone
+| Kuklomenos | http://mbays.freeshell.org/kuklomenos/ | abstract shoot-em-up
+| BurgerSpace | http://perso.b2b2c.ca/~sarrazip/dev/burgerspace.html | Burger time clone
+| Empty Clip | https://gitlab.com/empty-clip/code | Top-down shooter RPG | 
+| HoverRace | https://github.com/HoverRace/HoverRace/tree/master | An open-source 3D racing game | 
+| Monty Mole | https://montymole.sourceforge.net/ | remake |
+| NETHER EARTH | https://web.archive.org/web/20190608221012/http://www.braingames.getput.com/nether/ | remake
+| Afternoon Stalker | http://perso.b2b2c.ca/~sarrazip/dev/afternoonstalker.html |  clone of the 1982 Night Stalker video game for the Intellivision | 
+| Jet Lee | https://github.com/Uvadzucumi/JetLee | remake of ZX spectrum video game "Bruce Lee" (1984) |
+| Legendary Kingdoms | https://github.com/daelsepara/legendary-kingdoms | An Implementation of Legendary Kingdoms gamebook series in C++ and SDL. | 
+| CatacombSDL | https://github.com/Blzut3/CatacombSDL | SDL 2 source port for Catacomb II. | 
+| barbie-seahorse-adventures | https://github.com/Nebuleon/barbie-seahorse-adventures | You're a seahorse, and you want to go to the Moon!
+| Starfighter | https://github.com/pr-starfighter/starfighter | Starfighter clone/remake | 
+| Net Nuclear | https://github.com/gondur/netnuclear_src | a remake of Nuclear wars | 
+| openCatacomb | https://sourceforge.net/projects/opencatacomb/ | catacomb 1 and 2 | 
+| M.A.X. | https://github.com/klei1984/max | M.A.X. Port | 
+|  S.C.O.U.R.G.E. | https://github.com/q4a/scourge |  a roguelike game with a 3D user interface | 
+| Meanwhile In Russia | https://github.com/davidaf3/MeanwhileInRussia | 2D side-scroller shooter/platformer |
+| ltank-sdl | https://github.com/wildptr/ltank-sdl | Jim Kindley's Laser Tank game remade with SDL 2.0 |
+| Pig's Castle Game | https://github.com/tarcisiofischer/pigs_game | A 2D sidescroller  |
+| Five SDL | https://github.com/tjumyk/Five_SDL | A Gobang game implemented with C++ and SDL | 
+| Return To The Roots  | https://github.com/Return-To-The-Roots/s25client | Settlers II(R) Clone |
+| MasterPiece.SDL | https://github.com/lostjared/MasterPiece.SDL | match 3 | 
+| Linjat | https://github.com/jsnell/linjat | A puzzle game | 
+| Gmu Music Player | https://github.com/jhe2/gmu | music player |
+| SR | https://github.com/M-HT/SR | A project to statically recompile following games to create Windows or Linux (x86 or arm) versions of the games - Albion, X-Com: UFO Defense (UFO: Enemy Unknown), X-Com: Terror from the Deep, Warcraft: Orcs & Humans, Septerra Core: Legacy of the Creator, Battle Isle 3: Shadow of the Emperor
+| TailTale  | https://github.com/weimzh/tailtale/tree/master | |
+| Tux Football |  https://sourceforge.net/projects/tuxfootball/ | arcade-style 2D football game
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
