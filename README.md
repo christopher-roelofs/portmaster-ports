@@ -63,6 +63,7 @@
 | [Gravity Defied](https://github.com/rgimad/gravity_defied_cpp) | builds and runs well. Issue with saving after the first few levels
 | [Freezzt](https://github.com/inmatarian/freezzt) | compiles and runs, need to test games
 | [Attack of the PETSCII Robots SDL](https://github.com/zeropolis79/PETSCIIRobots-SDL) | resolution topo small
+| [LightsOut](https://github.com/jigpu/LightsOut) | runs well, needs sdl1.2compat. Small issue with crashing when difficulty goes below 1 
 
 
 
@@ -102,7 +103,89 @@
 | Gmu Music Player | https://github.com/jhe2/gmu | music player |
 | SR | https://github.com/M-HT/SR | A project to statically recompile following games to create Windows or Linux (x86 or arm) versions of the games - Albion, X-Com: UFO Defense (UFO: Enemy Unknown), X-Com: Terror from the Deep, Warcraft: Orcs & Humans, Septerra Core: Legacy of the Creator, Battle Isle 3: Shadow of the Emperor
 | TailTale  | https://github.com/weimzh/tailtale/tree/master | |
-| Tux Football |  https://sourceforge.net/projects/tuxfootball/ | arcade-style 2D football game
+| Tux Football |  https://sourceforge.net/projects/tuxfootball/ | arcade-style 2D football game |
+| The Legend of Jin Yong Heroes | https://github.com/ZhanruiLiang/jinyong-legend/tree/master | |
+| osu!octave | https://github.com/v-atamanenko/osu-octave | Open-Source, Usable Osu! Client. Tailored and Adjusted for the Vita and Embedded |
+| Defendguin  | http://www.newbreedsoftware.com/defendguin/ | clone of the arcade game "Defender" | 
+| slime-vball | https://github.com/parsiad/slime-vball | A clone of the slime volleyball game http://oneslime.net/ |
+| UntitledPSP | https://github.com/KorigamiK/UntitledPSP | A cross-platform 2D raycasting game implementation |
+| CrossCraft-Classic  | https://github.com/CrossCraft/CrossCraft-Classic | A C++ Minecraft Classic Client |
+| CrossCraft-SurvivalTest | https://github.com/CrossCraft/CrossCraft-SurvivalTest |
+| Lilium Voyage | https://github.com/zturtleman/lilium-voyager | An engine replacement for Star Trek Voyager: Elite Force Holomatch (multiplayer) based on ioquake3 and ioEF
+| UFO:Alien Invasion | https://github.com/ufoaiorg/ufoai | squad-based tactical strategy game in the tradition of the old X-COM PC games |
+| LittleGPTracker | https://github.com/Mdashdotdashn/LittleGPTracker/tree/master |  music tracker optimised to run on portable game consoles. |
+| Freesynd | https://github.com/winterheart/freesynd/tree/master |  cross-platform reimplementation of engine for the classic
+Bullfrog game "Syndicate"
+| Tamagotchi | https://github.com/Gwennyphar/Tamagotchi | Tamagotchi is a virtual pet, which needs to be fed and cared for |
+| C-SDL-BlackJack | https://github.com/FeFranklin/C-SDL-BlackJack  | A Blackjack game developed in C++ using graphic library SDL 2.0 |
+| blackjack-c-sdl | https://github.com/gdonald/blackjack-c-sdl | Blackjack written in C using SDL2 | 
+| Arkanoid, Airball, Metro-Cross | http://oldschoolprg.x10.mx/projets.php | serveral projects by a single dev |
+| Ganbare Natsuki-San | https://github.com/gameblabla/Ganbare-Natsuki-San/tree/master | Ganbare Natsuki-San is a game by Alpha Secret Base | 
+| Snake | https://github.com/jcalvarezj/snake | A simple snake game made in C++ using SDL | 
+| Kaiten Patissier | https://mk2k.net/serendipity/index.php?/archives/14-Kaiten-Patissier-1.00-PSP-R1.html | |
+| Diamonds | https://github.com/cap/diamonds | Breakout-like in light C++, remade from the hp48 version |
+| Spit-ng | https://github.com/Anonymous1157/spout-ng | Port/refactor of the Spout vertical cave flying physics game |
+| Race into Space | https://github.com/raceintospace/raceintospace | Race into Space is the free software version of Interplay's Buzz Aldrin's Race into Space |
+| SDL-Ball | https://github.com/DusteDdk/SDL-Ball | A DX-Ball/MegaBall/Breakout clone |
+| Spacejunk  | https://sourceforge.net/projects/spacejunk/ | video game about traveling in 2D planetary systems |
+| chrząszcz  | https://sourceforge.net/projects/chrzaszcz/ | An SDL based maze-game |
+| Arkanoid - Break the Bricks | https://sourceforge.net/projects/arkanoid-break-the-bricks-game/ | 
+| Freedink | https://github.com/hayate891/freedink/tree/master | portable and enhanced version of the Dink
+Smallwood game engine | 
+| panel-pop | https://github.com/a544jh/panel-pop| Panel de Pon / Tetris Attack / Puzzle League clone |
+| Puzzle Moppet | https://github.com/karjonas/Puzzle-Moppet |  A challenging 3D puzzle game where you must guide the Moppet through the vast and eternal void of space by solving the various and beautiful puzzles thrown at you.|
+| Candy Crisis | https://github.com/jorio/CandyCrisis | Candy Crisis source port for modern operating systems | 
+| Neko Puzzle | https://www.lexaloffle.com/neko.php | Leap around randomly generated puzzles collecting blocks in the right order. Would need to use box86 |
+| Dune Dynasty | https://sourceforge.net/projects/dunedynasty/ | Dune Dynasty is a continuation of the classic real-time strategy game Dune II by Westwood Studios. It is not a remake. It builds upon the original game engine as reverse-engineered by the OpenDUNE project. |
+| xsytem35-sdl2 | https://github.com/kichikuou/xsystem35-sdl2 | Multi-platform implementation of AliceSoft's System3.x game engine |
+| Rlone | https://junisoft.itch.io/rlone |  real-time rogue clone | 
+| PipeWalker | https://pipewalker.sourceforge.net/ | puzzle game in which you need to combine the components into a single circuit:
+connect all computers to a network server, bring water to the taps, etc.
+| Nikwi Deluxe |  https://github.com/jbradish/nikwi| 2D platform game | 
+|  Lord of the Rings game engine | http://www.wonderland.cz/lotr/#downloads | Rewrite of the game engine for very famous Lord of the Rings Game by Interplay |
+| Xargon | https://github.com/Malvineous/xargon | SDL port of the DOS game Xargon |
+| Last Mission | https://github.com/dmitrysmagin/last-mission | The Last Mission remake for various platforms using SDL 1.2 |
+|  Holotz's Castle | https://archive.org/details/holotz-castle_1.3.14 | 
+| LAB3D/SDL | https://github.com/sacredbanana/lab3d-sdl | port of Ken's Labyrinth to modern operating systems |
+| Open Hexagon | https://github.com/vittorioromeo/SSVOpenHexagon | clone of Super Hexagon |
+| Primrose | https://primrose.sourceforge.net/download.php | color based puzzle game |
+| Tower Topper | https://gitlab.com/roever/toppler/ |   reimplementation of the old game known as Tower Toppler or Nebulus. |
+| rezerwar  | https://tamentis.com/projects/rezerwar/ | opensource blocks n pipes game | 
+| Cuyo| https://www.karimmi.de/cuyo/ | a tetris like game |
+| x-pired | https://www.online-siesta.com/game/x-pired/ |  action-puzzle game | 
+| BALLZ | https://gitlab.com/ballz/ballz | B.A.L.L.Z. game by Darkbits |
+| Maze of Galious | https://github.com/dmitrysmagin/maze_of_galious | Low resolution port of Maze of Galious remake |
+| Roadfighter  | https://github.com/ptitSeb/roadfighter | Port of Roadfighter from Brain Games | 
+| LMarbles | https://lgames.sourceforge.io/LMarbles/ | Atomix clone with a slight change in concept |
+| LTris | https://lgames.sourceforge.io/LTris/ | tetris clone |
+| LBreakout2 | https://lgames.sourceforge.io/LBreakout2/| breakout clone |
+| FloboPuyo | https://github.com/kerheol/flobopuyo | puzzle game | 
+| Alex the alligator | https://allegator.sourceforge.net/ | 4 (plaform game) and 2 (puzzle board game), 3 (top down racing) |
+| chroma | http://www.level7.org.uk/chroma/ | Chroma is an abstract puzzle game. A variety of colourful shapes are arranged in a series of increasingly complex patterns, forming fiendish traps that must be disarmed and mysterious puzzles that must be manipulated in order to give up their subtle secrets |
+| Noiz2sa | https://github.com/godfryd/noiz2sa | Abstract shootem | 
+| Berusky I | https://www.anakreon.cz/berusky1.html | based on sokoban |
+| Berusky II | https://www.anakreon.cz/berusky2.html | updated 3d version |
+| Portile | https://www.increpare.com/2008/11/portile/ | 2d, tile-based take on narbacular drop |
+| Super Transball 2 |  https://github.com/santiontanon/stransball2 | Super Transbal 2 is the sequel of Transball and Transball 2, inspired by the classic Thrust-style games (and concretely by Zara Thrusta for the Commodore Amiga) |
+| HeadOverHeels | https://github.com/dougmencken/HeadOverHeels | open source remake of game Head over Heels |
+| Chromium BSU | https://github.com/macton/chromium-bsu | Arcade-style, top-scrolling space shooter| 
+| Kraptor | https://sourceforge.net/projects/kraptor/ |  shoot 'em up scroller game |
+| Amoebax | https://github.com/OSSGames/GAME-SDL-PUZZLE-Amoebax | puyo puyu puzzle game |
+| Super Methane Brothers | https://github.com/szymor/methane-sdl/tree/master | Super Methane Brothers SDL-based port |
+| The Secret Chronicles of Dr. M. | https://github.com/Secretchronicles/TSC | An open source two-dimensional platform game. |
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
