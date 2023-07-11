@@ -185,6 +185,8 @@ connect all computers to a network server, bring water to the taps, etc.
 | kiki the nano bot | https://github.com/a-sf-mirror/kiki | 3-D puzzle game . It is basically a mixture of the games Sokoban and Kula-World | 
 | Zik Zak | https://github.com/atextor/zikzak | 3d puzzle and reaction game |
 | AstroMenace | https://github.com/viewizard/astromenace | Hardcore 3D space scroll-shooter with spaceship upgrade possibilities | 
+| OpenTitus| https://github.com/stople/OpenTitus | A port of the game engine behind the DOS versions of Titus the Fox and Moktar |
+| Open Surge | https://github.com/alemart/opensurge | A fun 2D retro platformer inspired by Sonic games and a game creation system. Previously Open Sonic.
 
 
 
