@@ -64,6 +64,7 @@
 | [Freezzt](https://github.com/inmatarian/freezzt) | compiles and runs, need to test games
 | [Attack of the PETSCII Robots SDL](https://github.com/zeropolis79/PETSCIIRobots-SDL) | resolution topo small
 | [LightsOut](https://github.com/jigpu/LightsOut) | runs well, needs sdl1.2compat. Small issue with crashing when difficulty goes below 1 
+| [Xjump SDL](https://github.com/hugomg/xjump-sdl) | runs well. No audio and screen is small. 
 
 
 
@@ -186,7 +187,26 @@ connect all computers to a network server, bring water to the taps, etc.
 | Zik Zak | https://github.com/atextor/zikzak | 3d puzzle and reaction game |
 | AstroMenace | https://github.com/viewizard/astromenace | Hardcore 3D space scroll-shooter with spaceship upgrade possibilities | 
 | OpenTitus| https://github.com/stople/OpenTitus | A port of the game engine behind the DOS versions of Titus the Fox and Moktar |
-| Open Surge | https://github.com/alemart/opensurge | A fun 2D retro platformer inspired by Sonic games and a game creation system. Previously Open Sonic.
+| Open Surge | https://github.com/alemart/opensurge | A fun 2D retro platformer inspired by Sonic games and a game creation system. Previously Open Sonic.|
+| https://www.masoftware.es/ | https://www.masoftware.es/ | several various games with source |
+| puzzletube | https://github.com/theZiz/puzzletube | A puzzle game - on a tube |
+| retrobattle | http://remar.se/andreas/retrobattle/ | retro feeling game like ice climber/ clu clu land |
+| cylindrix | https://github.com/hyperlogic/cylindrix | 3-on-3 vehicle combat game with retro tron style graphics. |
+| roswyn | https://github.com/M-HT/roswyn | Roswyn and The Dragons is an exciting Action-RPG game (with direct combat) |
+| griel's quest | https://github.com/M-HT/griels-quest | Griel's Quest for the Sangraal" is a game released for MSX2 systems in the year 1990 (only on Japan). In 2005 was ported to MSX1 systems by Karoshi Corp |
+| soulfu | https://github.com/szymor/soulfu | SoulFu is a 3D action role-playing hack and slash dungeon crawler made by Aaron Bishop, the creator of Egoboo |
+| hostile takeover | https://github.com/spiffcode/hostile-takeover | Open Source Real Time Strategy game based on Warfare Incorporated |
+| super jumpkick turbo | https://github.com/pmprog/SuperJumpKickTurbo | Street Fighter x DiveKick Mashup |
+| cytadela | https://cytadela.sourceforge.net/download.php | Cytadela is a conversion of an old Amiga first person shooter. The original was created in mid 1990's by Virtual Design, and released firstly in Poland and then in other countries.| 
+| minilens | http://kobuge-games.github.io/minilens/ | godot game . alien platformer |
+| tong | https://www.nongnu.org/tong/ | Tetris and Pong are classics, addictive and unshakable from their places in gaming history. TONG is the result of mixing the two, capitalizing on the essential qualities of each classic and adding new twists of its own to make an explosive chemical reaction out of it all.
+| ravage sdl | https://github.com/sigt44/ravage-sdl | Ravage DOS game port to SDL |
+| Mr Drillux | https://github.com/mthuurne/mrdrillux | Miss Driller Clone|
+| pipepanic | http://www.users.waitrose.com/~thunor/pipepanic/ | Pipepanic is a pipe connecting game using libSDL. Connect as many different shaped pipes together as possible within the time given. |
+
+
+
+
 
 
 
