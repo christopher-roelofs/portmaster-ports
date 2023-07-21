@@ -5,8 +5,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play",
-        "type": "Beat2x",
-        "genres": "Beat2x"
+        "type": "Native",
+        "genres": "rhythm"
     },
     {
         "title": "Celeste Classic",
@@ -14,8 +14,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "Celeste Classic",
-        "genres": "Celeste Classic"
+        "type": "Native",
+        "genres": "platformer"
     },
     {
         "title": "Dome Romantik",
@@ -23,8 +23,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "Launch DomeRomantik.sh",
-        "type": "Dome Romantik",
-        "genres": "Dome Romantik"
+        "type": "frt_3.5.2.squashfs",
+        "genres": "strategy"
     },
     {
         "title": "Eity",
@@ -32,8 +32,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "",
-        "type": "Eity",
-        "genres": "Eity"
+        "type": "Native",
+        "genres": "rhythm"
     },
     {
         "title": "F1 Race",
@@ -41,8 +41,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All game files are included and game is ready to play",
-        "type": "F1 Race",
-        "genres": "F1 Race"
+        "type": "Native",
+        "genres": "racing,arcade"
     },
     {
         "title": "Community: Journey to the Center of Hawkthorne",
@@ -50,8 +50,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "",
-        "type": "Community: Journey to the Center of Hawkthorne",
-        "genres": "Community: Journey to the Center of Hawkthorne"
+        "type": "Native",
+        "genres": "platformer,rpg"
     },
     {
         "title": "hijinx/hijinx.port.json",
@@ -59,8 +59,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "Game files are included.",
-        "type": "hijinx/hijinx.port.json",
-        "genres": "hijinx/hijinx.port.json"
+        "type": "godot-3.2.3.squashfs",
+        "genres": "platformer"
     },
     {
         "title": "xkcd Hoverboard",
@@ -68,8 +68,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "xkcd Hoverboard",
-        "genres": "xkcd Hoverboard"
+        "type": "Native",
+        "genres": "platformer"
     },
     {
         "title": "Laser Kombat",
@@ -77,8 +77,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play",
-        "type": "Laser Kombat",
-        "genres": "Laser Kombat"
+        "type": "Native",
+        "genres": "puzzle"
     },
     {
         "title": "LBreakoutHD",
@@ -86,8 +86,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "LBreakoutHD",
-        "genres": "LBreakoutHD"
+        "type": "Native",
+        "genres": "other"
     },
     {
         "title": "Me and My Shadow",
@@ -95,8 +95,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "Me and My Shadow",
-        "genres": "Me and My Shadow"
+        "type": "Native",
+        "genres": "platformer,puzzle"
     },
     {
         "title": "Neverball",
@@ -104,8 +104,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to run.\n\nDpad and left stick are movement\nA is select/enter\nB is back/escape\nSelect is escape\nStart is enter",
-        "type": "Neverball",
-        "genres": "Neverball"
+        "type": "Native",
+        "genres": "sports"
     },
     {
         "title": "Nonny",
@@ -113,8 +113,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and ready to play.",
-        "type": "Nonny",
-        "genres": "Nonny"
+        "type": "Native",
+        "genres": "puzzle"
     },
     {
         "title": "Nova Pinball",
@@ -122,8 +122,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "",
-        "type": "Nova Pinball",
-        "genres": "Nova Pinball"
+        "type": "Native",
+        "genres": "arcade"
     },
     {
         "title": "NPuzzle",
@@ -131,8 +131,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "NPuzzle",
-        "genres": "NPuzzle"
+        "type": "Native",
+        "genres": "puzzle"
     },
     {
         "title": "Open Great Giana Sisters",
@@ -140,8 +140,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "Open Great Giana Sisters",
-        "genres": "Open Great Giana Sisters"
+        "type": "Native",
+        "genres": "platformer"
     },
     {
         "title": "OpenSupaplex",
@@ -149,8 +149,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play. Every levelset requires a there to be a player created. Levelset 1 had a premade PLAYER1 created but all others will require you to create a new one. You can use start + dpad down to enter text input mode.",
-        "type": "OpenSupaplex",
-        "genres": "OpenSupaplex"
+        "type": "Native",
+        "genres": "action,puzzle"
     },
     {
         "title": "Planet Waves",
@@ -158,8 +158,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files already included. Run PlanetWaves.sh",
-        "type": "Planet Waves",
-        "genres": "Planet Waves"
+        "type": "frt_3.5.2.squashfs",
+        "genres": "strategy"
     },
     {
         "title": "Raptor",
@@ -167,8 +167,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "Shareware files are included and game is ready to run. See readme for detailed instructions for full version game files and other configuration options. In the name and callsign section, make sure the crosshair is not on input fields, press start + down to enable text entry. Press start once done to complete entry. ",
-        "type": "Raptor",
-        "genres": "Raptor"
+        "type": "Native",
+        "genres": "arcade"
     },
     {
         "title": "Retro Time",
@@ -176,8 +176,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "Retro Time",
-        "genres": "Retro Time"
+        "type": "Native",
+        "genres": "arcade"
     },
     {
         "title": "SDL Sopwith",
@@ -185,8 +185,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "SDL Sopwith",
-        "genres": "SDL Sopwith"
+        "type": "Native",
+        "genres": "arcade"
     },
     {
         "title": "Thermomorph",
@@ -194,8 +194,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "",
-        "type": "Thermomorph",
-        "genres": "Thermomorph"
+        "type": "Native",
+        "genres": "simulation,other"
     },
     {
         "title": "Upo",
@@ -203,8 +203,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "",
-        "type": "Upo",
-        "genres": "Upo"
+        "type": "Native",
+        "genres": "rhythm"
     },
     {
         "title": "Wizznic",
@@ -212,8 +212,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play",
-        "type": "Wizznic",
-        "genres": "Wizznic"
+        "type": "Native",
+        "genres": "puzzle"
     },
     {
         "title": "Wordle SDL",
@@ -221,8 +221,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and ready.",
-        "type": "Wordle SDL",
-        "genres": "Wordle SDL"
+        "type": "Native",
+        "genres": "puzzle"
     },
     {
         "title": "ZGloom",
@@ -230,8 +230,8 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to run.",
-        "type": "ZGloom",
-        "genres": "ZGloom"
+        "type": "Native",
+        "genres": "fps"
     },
     {
         "title": "Znax",
@@ -239,7 +239,7 @@
         "porter": "",
         "image": "",
         "instrunctions": "All files are included and game is ready to play.",
-        "type": "Znax",
-        "genres": "Znax"
+        "type": "Native",
+        "genres": "puzzle"
     }
 ]
