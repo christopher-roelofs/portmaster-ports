@@ -1,0 +1,20 @@
+[
+    {
+        "title": "2048",
+        "content": "The 2048 puzzle game",
+        "porter": "Christian_Haitian",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/2048.screenshot.jpg",
+        "instructions": "All files are included and game is ready to play",
+        "type": "Ready to run",
+        "genres": "puzzle"
+    },
+    {
+        "title": "Abe's Amazing Adventure",
+        "content": "A scrolling, platform-jumping, key-collecting, ancient pyramid exploring game, vaguely in the style of similar games for the Commodore+4.",
+        "porter": "Cebion",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/abes_adventure.screenshot.jpg",
+        "instructions": "All files are included and game is ready to play",
+        "type": "Ready to run",
+        "genres": "adventure,platformer"
+    }
+]
