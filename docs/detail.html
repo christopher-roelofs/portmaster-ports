@@ -9,20 +9,42 @@
         body {
             font-family: Arial, sans-serif;
             padding: 20px;
+            display: flex;
+            justify-content: center;
+            /* Center the contents horizontally */
+            align-items: center;
+            /* Center the contents vertically */
+            height: 100vh;
+            /* Set the body height to the full viewport height */
+            margin: 0;
         }
 
-        h2 {
+        h1 {
             margin-top: 0;
+            text-align: center;
         }
 
         p {
             margin-bottom: 0;
+            text-align: center;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+
+        /* Additional styles for larger screens if necessary */
+        @media screen and (min-width: 768px) {
+            /* Add any additional styles for larger screens here */
         }
     </style>
 </head>
 
 <body>
-    
+
     <div id="details-container"></div>
 
     <script>
