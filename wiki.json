@@ -12,7 +12,7 @@
         "title": "Celeste Classic",
         "content": "Celeste Classic is a C source port of the original celeste (Celeste classic).",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/celeste classic.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/cceleste.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
@@ -21,7 +21,7 @@
         "title": "Dome Romantik",
         "content": "Dig your way through to the core of the planet. Mine minerals, bring them back to your dome and install upgrades just in time to defend from hostile lifeforms.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/dome romantik.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/domeromantik.screenshot.jpg",
         "instructions": "Launch DomeRomantik.sh",
         "type": "frt_3.5.2.squashfs",
         "genres": "strategy"
@@ -39,7 +39,7 @@
         "title": "F1 Race",
         "content": "F1 Race is a port of the F1 Race game from MTK OS.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/f1 race.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/f1race.screenshot.jpg",
         "instructions": "All game files are included and game is ready to play",
         "type": "Native",
         "genres": "racing,arcade"
@@ -48,7 +48,7 @@
         "title": "Community: Journey to the Center of Hawkthorne",
         "content": "This 2d platformer is based on Community's Digital Estate Planning episode. \n\nA group of warriors are summoned to the kingdom of Hawkthorne\u2122 to take on a quest to recover the fabled \"White Diamond of Discipline\"\u2122 found in the depths of the dark pit of despair known as The Black Cave\u2122.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/community: journey to the center of hawkthorne.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/hawkthorne.screenshot.jpg",
         "instructions": "",
         "type": "Native",
         "genres": "platformer,rpg"
@@ -66,7 +66,7 @@
         "title": "xkcd Hoverboard",
         "content": "Standalone version of xkcd 1608 Hoverboard game",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/xkcd hoverboard.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/hoverboard.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
@@ -75,7 +75,7 @@
         "title": "Laser Kombat",
         "content": "Laser Kombat is a classic puzzle game, now available for modern systems. Destroy all the tanks to beat the level. Stay out of line of sight, though, or you will get shot. Shoot your lasers at mirrors, blow up bomb or push your enemies into water with movable blocks to win.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/laser kombat.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/laserkombat.screenshot.jpg",
         "instructions": "All files are included and game is ready to play",
         "type": "Native",
         "genres": "puzzle"
@@ -93,7 +93,7 @@
         "title": "Me and My Shadow",
         "content": "Me and My Shadow is a puzzle/platform game in which you try to reach the exit by solving puzzles. Spikes, moving blocks, fragile blocks and much more stand between you and the exit. Record your moves and let your shadow mimic them to reach blocks you couldn't reach alone.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/me and my shadow.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/meandmyshadow.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer,puzzle"
@@ -120,7 +120,7 @@
         "title": "Nova Pinball",
         "content": "A pinball game created with the Love game framework.\n\nYour mission: Make the star go nova. There are in-game hints that point out the next target to achieve your goal.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/nova pinball.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/nova_pinball.screenshot.jpg",
         "instructions": "",
         "type": "Native",
         "genres": "arcade"
@@ -138,7 +138,7 @@
         "title": "Open Great Giana Sisters",
         "content": "Open Great Giana Sisters is a Free Software/Open Source implementation/remake of The Great Giana Sisters.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/open great giana sisters.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/openggs.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
@@ -156,7 +156,7 @@
         "title": "Planet Waves",
         "content": "An arcade tower defense about protecting a small planet made for the gotm.io jam #3 by Escada Games\n",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/planet waves.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/planetwaves.screenshot.jpg",
         "instructions": "All files already included. Run PlanetWaves.sh",
         "type": "frt_3.5.2.squashfs",
         "genres": "strategy"
@@ -174,7 +174,7 @@
         "title": "Retro Time",
         "content": "RetroTime is a game containing 8 retro based games playable in 3 game modes being Retro Carousel, Time Attack and Lives mode. ",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/retro time.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/retrotime.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "arcade"
@@ -183,7 +183,7 @@
         "title": "SDL Sopwith",
         "content": "SDL Sopwith is a port of the game Sopwith, which was originally by BMB CompuScience Canada.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/sdl sopwith.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/sdlsopwith.screenshot.jpg",
         "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "arcade"
@@ -219,7 +219,7 @@
         "title": "Wordle SDL",
         "content": "Wordle SDL is a port of a clone of Wordle made with SDL.\n\nWordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022. Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.",
         "porter": "",
-        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/wordle sdl.screenshot.jpg",
+        "image": "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/wordlesdl.screenshot.jpg",
         "instructions": "All files are included and ready.",
         "type": "Native",
         "genres": "puzzle"
