@@ -4,7 +4,7 @@
         "content": "Beat2x is DDR-style rythm game where the goal is to time the button presses to line up with the music beat.\n",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play",
+        "instructions": "All files are included and game is ready to play",
         "type": "Native",
         "genres": "rhythm"
     },
@@ -13,7 +13,7 @@
         "content": "Celeste Classic is a C source port of the original celeste (Celeste classic).",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
     },
@@ -22,7 +22,7 @@
         "content": "Dig your way through to the core of the planet. Mine minerals, bring them back to your dome and install upgrades just in time to defend from hostile lifeforms.",
         "porter": "",
         "image": "",
-        "instrunctions": "Launch DomeRomantik.sh",
+        "instructions": "Launch DomeRomantik.sh",
         "type": "frt_3.5.2.squashfs",
         "genres": "strategy"
     },
@@ -31,7 +31,7 @@
         "content": "Eity is a rhythm game with cool music.",
         "porter": "",
         "image": "",
-        "instrunctions": "",
+        "instructions": "",
         "type": "Native",
         "genres": "rhythm"
     },
@@ -40,7 +40,7 @@
         "content": "F1 Race is a port of the F1 Race game from MTK OS.",
         "porter": "",
         "image": "",
-        "instrunctions": "All game files are included and game is ready to play",
+        "instructions": "All game files are included and game is ready to play",
         "type": "Native",
         "genres": "racing,arcade"
     },
@@ -49,7 +49,7 @@
         "content": "This 2d platformer is based on Community's Digital Estate Planning episode. \n\nA group of warriors are summoned to the kingdom of Hawkthorne\u2122 to take on a quest to recover the fabled \"White Diamond of Discipline\"\u2122 found in the depths of the dark pit of despair known as The Black Cave\u2122.",
         "porter": "",
         "image": "",
-        "instrunctions": "",
+        "instructions": "",
         "type": "Native",
         "genres": "platformer,rpg"
     },
@@ -58,7 +58,7 @@
         "content": "Hijinx is a platformer that incorporates the theme of \"pick your poison\" by having players pick from a set of handicaps for each level, with help from Carl, the bumbling tortoise.",
         "porter": "",
         "image": "",
-        "instrunctions": "Game files are included.",
+        "instructions": "Game files are included.",
         "type": "godot-3.2.3.squashfs",
         "genres": "platformer"
     },
@@ -67,7 +67,7 @@
         "content": "Standalone version of xkcd 1608 Hoverboard game",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
     },
@@ -76,7 +76,7 @@
         "content": "Laser Kombat is a classic puzzle game, now available for modern systems. Destroy all the tanks to beat the level. Stay out of line of sight, though, or you will get shot. Shoot your lasers at mirrors, blow up bomb or push your enemies into water with movable blocks to win.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play",
+        "instructions": "All files are included and game is ready to play",
         "type": "Native",
         "genres": "puzzle"
     },
@@ -85,7 +85,7 @@
         "content": "LBreakoutHD is a scaleable 16:9 remake of LBreakout2. You try to clear levels full of different types of bricks and extras by using your paddle to aim balls at the bricks.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "other"
     },
@@ -94,7 +94,7 @@
         "content": "Me and My Shadow is a puzzle/platform game in which you try to reach the exit by solving puzzles. Spikes, moving blocks, fragile blocks and much more stand between you and the exit. Record your moves and let your shadow mimic them to reach blocks you couldn't reach alone.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer,puzzle"
     },
@@ -103,7 +103,7 @@
         "content": "Tilt the floor to roll a ball through an obstacle course within the given time. If the ball falls or time expires, a ball is lost.\n\nCollect coins to unlock the exit and earn extra balls. Red coins are worth 5. Blue coins are worth 10. A ball is awarded for 100 coins.\n\nIncludes Neverputt. ",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to run.\n\nDpad and left stick are movement\nA is select/enter\nB is back/escape\nSelect is escape\nStart is enter",
+        "instructions": "All files are included and game is ready to run.\n\nDpad and left stick are movement\nA is select/enter\nB is back/escape\nSelect is escape\nStart is enter",
         "type": "Native",
         "genres": "sports"
     },
@@ -112,7 +112,7 @@
         "content": "Nonny is a simple nonogram game that lets you play and create nonogram puzzles!",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and ready to play.",
+        "instructions": "All files are included and ready to play.",
         "type": "Native",
         "genres": "puzzle"
     },
@@ -121,7 +121,7 @@
         "content": "A pinball game created with the Love game framework.\n\nYour mission: Make the star go nova. There are in-game hints that point out the next target to achieve your goal.",
         "porter": "",
         "image": "",
-        "instrunctions": "",
+        "instructions": "",
         "type": "Native",
         "genres": "arcade"
     },
@@ -130,7 +130,7 @@
         "content": "NPuzzle is a 15 puzzle style sliding game where you have to rearrange the tiles in order.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "puzzle"
     },
@@ -139,7 +139,7 @@
         "content": "Open Great Giana Sisters is a Free Software/Open Source implementation/remake of The Great Giana Sisters.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "platformer"
     },
@@ -148,7 +148,7 @@
         "content": "OpenSupaplex is a 1:1 reimplementation of the original game in C and SDL, with just a few changes to make it easy to use with game controllers, and also easy to port to any platform.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play. Every levelset requires a there to be a player created. Levelset 1 had a premade PLAYER1 created but all others will require you to create a new one. You can use start + dpad down to enter text input mode.",
+        "instructions": "All files are included and game is ready to play. Every levelset requires a there to be a player created. Levelset 1 had a premade PLAYER1 created but all others will require you to create a new one. You can use start + dpad down to enter text input mode.",
         "type": "Native",
         "genres": "action,puzzle"
     },
@@ -157,7 +157,7 @@
         "content": "An arcade tower defense about protecting a small planet made for the gotm.io jam #3 by Escada Games\n",
         "porter": "",
         "image": "",
-        "instrunctions": "All files already included. Run PlanetWaves.sh",
+        "instructions": "All files already included. Run PlanetWaves.sh",
         "type": "frt_3.5.2.squashfs",
         "genres": "strategy"
     },
@@ -166,7 +166,7 @@
         "content": "Reversed-engineered source port from Raptor Call Of The Shadows",
         "porter": "",
         "image": "",
-        "instrunctions": "Shareware files are included and game is ready to run. See readme for detailed instructions for full version game files and other configuration options. In the name and callsign section, make sure the crosshair is not on input fields, press start + down to enable text entry. Press start once done to complete entry. ",
+        "instructions": "Shareware files are included and game is ready to run. See readme for detailed instructions for full version game files and other configuration options. In the name and callsign section, make sure the crosshair is not on input fields, press start + down to enable text entry. Press start once done to complete entry. ",
         "type": "Native",
         "genres": "arcade"
     },
@@ -175,7 +175,7 @@
         "content": "RetroTime is a game containing 8 retro based games playable in 3 game modes being Retro Carousel, Time Attack and Lives mode. ",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "arcade"
     },
@@ -184,7 +184,7 @@
         "content": "SDL Sopwith is a port of the game Sopwith, which was originally by BMB CompuScience Canada.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "arcade"
     },
@@ -193,7 +193,7 @@
         "content": "An Alien-inspired survive-the-night horror game, created in Love2D.\n\nYour crew is dead. Unidentified creatures stalk the halls of your mining ship. Armed with a motion sensor and a flamethrower, you must survive until the escape pod is repaired.",
         "porter": "",
         "image": "",
-        "instrunctions": "",
+        "instructions": "",
         "type": "Native",
         "genres": "simulation,other"
     },
@@ -202,7 +202,7 @@
         "content": "Upo is a procedurally generated music game.\nYour goal is to avoid collision with flying objects in rhytm to the music.\n",
         "porter": "",
         "image": "",
-        "instrunctions": "",
+        "instructions": "",
         "type": "Native",
         "genres": "rhythm"
     },
@@ -211,7 +211,7 @@
         "content": "Wizznic! is an open-source, freeware remake of Puzznic, recreating the original arcade levels, the NES ones and including fan-made puzzle packs with new custom levels. The gameplay remains exactly the same, where the player has to move individual tiles, arranging them inside a restricted space to create groups of identical blocks and make all disappear by touching each other. Elevators and other features gradually start to appear on later levels.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play",
+        "instructions": "All files are included and game is ready to play",
         "type": "Native",
         "genres": "puzzle"
     },
@@ -220,7 +220,7 @@
         "content": "Wordle SDL is a port of a clone of Wordle made with SDL.\n\nWordle is a web-based word game created and developed by Welsh software engineer Josh Wardle, and owned and published by The New York Times Company since 2022. Players have six attempts to guess a five-letter word, with feedback given for each guess in the form of colored tiles indicating when letters match or occupy the correct position.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and ready.",
+        "instructions": "All files are included and ready.",
         "type": "Native",
         "genres": "puzzle"
     },
@@ -229,7 +229,7 @@
         "content": "ZGloom is a re-implementation of Amiga FPS Gloom, including support for Gloom 3, Gloom Deluxe and Zombie Massacre.",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to run.",
+        "instructions": "All files are included and game is ready to run.",
         "type": "Native",
         "genres": "fps"
     },
@@ -238,7 +238,7 @@
         "content": "Znax is a remake of a game by Nick Kouvaris. It is a sort of puzzle / arcade game where you as the player need to select 4 blocks of the same color and form rectangles as big as you can",
         "porter": "",
         "image": "",
-        "instrunctions": "All files are included and game is ready to play.",
+        "instructions": "All files are included and game is ready to play.",
         "type": "Native",
         "genres": "puzzle"
     }

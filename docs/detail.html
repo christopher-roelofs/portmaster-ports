@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h2 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="details-container"></div>
+
+    <script>
+        // Function to get URL parameters
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Function to display card details
+        function displayCardDetails(data) {
+            const detailsContainer = document.getElementById('details-container');
+
+            const titleElement = document.createElement('h1');
+            titleElement.textContent = data.title;
+
+
+            const imageElement = document.createElement("img");
+            imageElement.src = data.image;
+            imageElement.className = "card-img"
+
+            const contentElement = document.createElement('p');
+            contentElement.textContent = "Description: " + data.content;
+
+            const instructionElement = document.createElement('p');
+            instructionElement.textContent = "Instructions: " + data.instructions;
+
+            const typeElement = document.createElement('p');
+            typeElement.textContent = "Type: " + data.type;
+
+            const genreElement = document.createElement('p');
+            genreElement.textContent = "Genres: " + data.genres;
+
+            const porterElement = document.createElement("p")
+            porterElement.textContent = "Porter: " + data.porter;
+
+            detailsContainer.appendChild(titleElement);
+            detailsContainer.appendChild(imageElement);
+            detailsContainer.appendChild(contentElement);
+            detailsContainer.appendChild(instructionElement);
+            detailsContainer.appendChild(typeElement);
+            detailsContainer.appendChild(genreElement);
+            detailsContainer.appendChild(porterElement);
+
+        }
+
+        // Fetch JSON data from the URL and display card details
+        async function fetchDataAndDisplayDetails() {
+            try {
+                const title = getUrlParameter('title');
+                const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                const jsonData = await response.json();
+                const card = jsonData.find((data) => data.title === title);
+
+                if (card) {
+                    displayCardDetails(card);
+                } else {
+                    const detailsContainer = document.getElementById('details-container');
+                    const notFoundElement = document.createElement('p');
+                    notFoundElement.textContent = 'Card not found.';
+                    detailsContainer.appendChild(notFoundElement);
+                }
+            } catch (error) {
+                console.error('Error fetching JSON data:', error);
+            }
+        }
+
+        // Call the fetchDataAndDisplayDetails function when the page is loaded
+        window.onload = fetchDataAndDisplayDetails;
+    </script>
+</body>
+
+</html>
