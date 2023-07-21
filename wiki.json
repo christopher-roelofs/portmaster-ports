@@ -54,7 +54,7 @@
         "genres": "platformer,rpg"
     },
     {
-        "title": "hijinx/hijinx.port.json",
+        "title": "hijinx",
         "content": "Hijinx is a platformer that incorporates the theme of \"pick your poison\" by having players pick from a set of handicaps for each level, with help from Carl, the bumbling tortoise.",
         "porter": "",
         "image": "",
