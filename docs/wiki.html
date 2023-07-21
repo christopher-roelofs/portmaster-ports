@@ -9,24 +9,23 @@
         body {
             font-family: Arial, sans-serif;
             display: flex;
+            justify-content: center;
+        }
+
+        #cards-container {
+            display: flex;
             flex-wrap: wrap;
-            justify-content: space-around;
+            justify-content: center;
+            padding-top: 70px; /* Add padding between the search bar and the row of cards */
         }
 
         .card {
-            width: 450px;
+            width: 250px;
             padding: 10px;
             margin: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        .card-img {
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-position: center center;
-            width: 450px;
         }
 
         h3 {
@@ -38,12 +37,23 @@
         }
 
         #search-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
             width: 100%;
             padding: 10px;
-            margin-bottom: 10px;
             box-sizing: border-box;
             border: 1px solid #ccc;
             border-radius: 5px;
+            background-color: #fff;
+            /* Add a white background to the search bar */
+        }
+
+        @media screen and (min-width: 768px) {
+            .card {
+                max-width: calc(33.33% - 30px);
+                /* Divide the available width into three columns */
+            }
         }
     </style>
 </head>
@@ -107,7 +117,7 @@
         // Function to filter the cards based on the search query
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
-            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) || data.porter.toLowerCase().includes(searchQuery) || data.genres.toLowerCase().includes(searchQuery) || data.type.toLowerCase().includes(searchQuery) );
+            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) || data.porter.toLowerCase().includes(searchQuery) || data.genres.toLowerCase().includes(searchQuery) || data.type.toLowerCase().includes(searchQuery));
             displayCards(filteredData);
         }
 
