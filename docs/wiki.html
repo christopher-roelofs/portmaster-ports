@@ -45,6 +45,18 @@
             margin-bottom: 0;
         }
 
+        #clear-button {
+            position: fixed;
+            top: 0;
+            /* Position above the columns */
+            right: 10px;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 5px;
+            background-color: #ccc;
+            cursor: pointer;
+        }
+
         #search-bar {
             position: fixed;
             top: 0;
@@ -63,17 +75,21 @@
                 max-width: calc(33.33% - 30px);
                 /* Divide the available width into three columns */
             }
+
             .card-img {
                 width: 100%;
                 max-width: 300px;
             }
-          
+
         }
     </style>
 </head>
 
 <body>
-    <input type="text" id="search-bar" placeholder="Search by title name" oninput="filterCards()">
+    <div id="search-bar-container">
+        <input type="text" id="search-bar" placeholder="Search by title name" oninput="filterCards()">
+        <button id="clear-button" onclick="clearSearch()">Clear</button>
+    </div>
     <div id="cards-container"></div>
 
     <script>
@@ -144,6 +160,12 @@
         // Function to handle the card title click and redirect to the detail page
         function handleCardClick(title) {
             window.location.href = `detail.html?title=${encodeURIComponent(title)}`;
+        }
+
+        // Function to clear the search bar and show all cards
+        function clearSearch() {
+            document.getElementById('search-bar').value = ''; // Clear the search input
+            filterCards(); // Show all cards again
         }
 
         // Fetch JSON data from the URL and then display the cards
