@@ -112,6 +112,12 @@
             imageElement.src = data.image;
             imageElement.className = "card-img"
 
+            imageElement.addEventListener('click', () => {
+                const title = titleElement.textContent;
+                console.log(title);
+                handleCardClick(title);
+            });
+
             const contentElement = document.createElement('p');
             contentElement.textContent = "Description: " + data.content;
 
