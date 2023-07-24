@@ -124,22 +124,17 @@
             const instructionElement = document.createElement('p');
             instructionElement.textContent = "Instructions: " + data.instructions;
 
-            const typeElement = document.createElement('p');
-            typeElement.textContent = "Type: " + data.type;
 
             const genreElement = document.createElement('p');
             genreElement.textContent = "Genres: " + data.genres;
 
-            const porterElement = document.createElement("p")
-            porterElement.textContent = "Porter: " + data.porter;
+
 
             cardElement.appendChild(titleElement);
             cardElement.appendChild(imageElement);
             cardElement.appendChild(contentElement);
             cardElement.appendChild(instructionElement);
-            cardElement.appendChild(typeElement);
             cardElement.appendChild(genreElement);
-            cardElement.appendChild(porterElement);
 
 
             return cardElement;
