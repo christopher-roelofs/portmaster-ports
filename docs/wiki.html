@@ -35,7 +35,7 @@
             background-position: center center;
             width: 100%;
             max-width: 300px;
-            
+
         }
 
         h3 {
@@ -71,9 +71,13 @@
             /* Add a white background to the search bar */
         }
 
-        @media screen and (min-width: 768px) {
-         
+        #filter-bar {
+            position: fixed;
+            padding-top: 35px;
         }
+
+            
+        @media screen and (min-width: 768px) {}
     </style>
 </head>
 
@@ -81,7 +85,12 @@
     <div id="search-bar-container">
         <input type="text" id="search-bar" placeholder="Search by name or genre" oninput="filterCards()">
         <button id="clear-button" onclick="clearSearch()">Clear</button>
+        <div id="filter-bar">
+            <label for="filter-toggle">Ready to Run:</label>
+            <input type="checkbox" id="filter-toggle" onchange="filterCards()">
+        </div>
     </div>
+
     <div id="cards-container"></div>
 
     <script>
@@ -143,16 +152,26 @@
         // Function to filter the cards based on the search query
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
+            const readyToRun = document.getElementById('filter-toggle').checked;
             var filteredData = {}
             var queries = searchQuery.split(" ");
             for (var key of Object.keys(jsonData)) {
                 queries.forEach(element => {
-                if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element))
-                {
-                    filteredData[key] = jsonData[key];
-                }
+                    if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element)) {
+
+                        if (readyToRun){
+                            if (jsonData[key].attr.rtr){
+                                filteredData[key] = jsonData[key];
+                            }
+                        }
+                        else {
+                            filteredData[key] = jsonData[key];
+                        }
+                        
+                        
+                    }
                 });
-               
+
             };
             displayCards(filteredData);
         }
