@@ -100,33 +100,31 @@
             cardElement.className = 'card';
 
             const titleElement = document.createElement('h3');
-            titleElement.textContent = data.title;
+            titleElement.textContent = data.attr.title;
 
             titleElement.addEventListener('click', () => {
                 const title = titleElement.textContent;
-                console.log(title);
                 handleCardClick(title);
             });
 
             const imageElement = document.createElement("img");
-            imageElement.src = data.image;
+            imageElement.src = "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/" + data.attr.image.screenshot;
             imageElement.className = "card-img"
 
             imageElement.addEventListener('click', () => {
                 const title = titleElement.textContent;
-                console.log(title);
                 handleCardClick(title);
             });
 
             const contentElement = document.createElement('p');
-            contentElement.textContent = "Description: " + data.content;
+            contentElement.textContent = "Description: " + data.attr.desc;
 
             const instructionElement = document.createElement('p');
             instructionElement.textContent = "Instructions: " + data.instructions;
 
 
             const genreElement = document.createElement('p');
-            genreElement.textContent = "Genres: " + data.genres;
+            genreElement.textContent = "Genres: " + data.attr.genres.join();
 
 
 
@@ -144,17 +142,16 @@
         function displayCards(data) {
             const cardsContainer = document.getElementById('cards-container');
             cardsContainer.innerHTML = ''; // Clear previous cards
-
-            data.forEach((data) => {
-                const card = createCard(data);
+            for (var key of Object.keys(data)) {
+                const card = createCard(data[key]);
                 cardsContainer.appendChild(card);
-            });
+            };
         }
 
         // Function to filter the cards based on the search query
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
-            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) ||  data.genres.toLowerCase().includes(searchQuery));
+            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) || data.genres.toLowerCase().includes(searchQuery));
             displayCards(filteredData);
         }
 
@@ -172,12 +169,12 @@
         // Fetch JSON data from the URL and then display the cards
         async function fetchDataAndDisplayCards() {
             try {
-                const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                const response = await fetch('https://raw.githubusercontent.com/kloptops/pugwash/main/pugwash/data/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
                 if (!response.ok) {
                     throw new Error('Network response was not ok.');
                 }
                 jsonData = await response.json();
-                displayCards(jsonData);
+                displayCards(jsonData.ports);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
             }

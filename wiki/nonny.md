@@ -1,18 +1,7 @@
 
-## Nonny
 
-![Puzzle](https://github.com/gkikola/nonny/raw/master/media/screenshots/puzzle.png)
+**Features**
 
-![Puzzle](https://github.com/gkikola/nonny/raw/master/media/screenshots/puzzle2.png)
-
-**Port Type:** Native
-
-**Website:**  https://github.com/gkikola/nonny
-
-**Description**
-Nonny lets you play and create nonogram puzzles! Nonograms (also known as Griddlers, Picross, and Paint-by-Number) are logic puzzles played on a grid of squares. The squares are filled in or left blank according to numeric clues at the sides of the grid. When the puzzle is finished, the filled-in squares form a picture.
-
-features
 -   Can play both standard and multicolor nonograms
     -   Tracks completion status for all puzzles
     -   Tracks time spent on solving each puzzle and records best completion times
@@ -35,9 +24,6 @@ features
     -   Supports the .g and .mk formats used in  [Mirek Olšák and Petr Olšák's solver](http://www.olsak.net/grid.html#English)
     -   Supports the .nin format used by  [Jakub Wilk's solver](https://jwilk.net/software/nonogram)
 
-**Instructions** 
-
-Ready to play.
 
 **Controls**
 
