@@ -48,9 +48,9 @@
 
         #clear-button {
             position: fixed;
-            top: 0;
+            top: 2px;
             /* Position above the columns */
-            right: 10px;
+            right: 150px;
             padding: 8px 12px;
             border: none;
             border-radius: 5px;
@@ -73,11 +73,16 @@
 
         #filter-bar {
             position: fixed;
-            padding-top: 35px;
+            /* Position above the columns */
+            right: 15px;
+            
         }
 
             
-        @media screen and (min-width: 768px) {}
+        @media screen and (min-width: 768px) {
+
+
+        }
     </style>
 </head>
 
@@ -85,10 +90,10 @@
     <div id="search-bar-container">
         <input type="text" id="search-bar" placeholder="Search by name or genre" oninput="filterCards()">
         <button id="clear-button" onclick="clearSearch()">Clear</button>
-        <div id="filter-bar">
-            <label for="filter-toggle">Ready to Run:</label>
-            <input type="checkbox" id="filter-toggle" onchange="filterCards()">
-        </div>
+    </div>
+    <div id="filter-bar">
+        <label for="filter-toggle">Ready to Run:</label>
+        <input type="checkbox" id="filter-toggle" onchange="filterCards()">
     </div>
 
     <div id="cards-container"></div>
