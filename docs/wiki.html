@@ -144,11 +144,15 @@
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
             var filteredData = {}
+            var queries = searchQuery.split(" ");
             for (var key of Object.keys(jsonData)) {
-                if (jsonData[key].attr.title.toLowerCase().includes(searchQuery) || jsonData[key].attr.genres.join().toLowerCase().includes(searchQuery))
+                queries.forEach(element => {
+                if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element))
                 {
                     filteredData[key] = jsonData[key];
                 }
+                });
+               
             };
             displayCards(filteredData);
         }
