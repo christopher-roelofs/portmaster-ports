@@ -87,7 +87,7 @@
 
 <body>
     <div id="search-bar-container">
-        <input type="text" id="search-bar" placeholder="Search by name, porter, genre or type" oninput="filterCards()">
+        <input type="text" id="search-bar" placeholder="Search by name or genre" oninput="filterCards()">
         <button id="clear-button" onclick="clearSearch()">Clear</button>
     </div>
     <div id="cards-container"></div>
@@ -154,7 +154,7 @@
         // Function to filter the cards based on the search query
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
-            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) || data.porter.toLowerCase().includes(searchQuery) || data.genres.toLowerCase().includes(searchQuery) || data.type.toLowerCase().includes(searchQuery));
+            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) ||  data.genres.toLowerCase().includes(searchQuery));
             displayCards(filteredData);
         }
 
