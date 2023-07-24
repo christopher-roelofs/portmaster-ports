@@ -151,7 +151,13 @@
         // Function to filter the cards based on the search query
         function filterCards() {
             const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
-            const filteredData = jsonData.filter((data) => data.title.toLowerCase().includes(searchQuery) || data.genres.toLowerCase().includes(searchQuery));
+            var filteredData = {}
+            for (var key of Object.keys(jsonData)) {
+                if (jsonData[key].attr.title.toLowerCase().includes(searchQuery) || jsonData[key].attr.genres.join().toLowerCase().includes(searchQuery))
+                {
+                    filteredData[key] = jsonData[key];
+                }
+            };
             displayCards(filteredData);
         }
 
@@ -174,7 +180,8 @@
                     throw new Error('Network response was not ok.');
                 }
                 jsonData = await response.json();
-                displayCards(jsonData.ports);
+                jsonData = jsonData.ports
+                displayCards(jsonData);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
             }

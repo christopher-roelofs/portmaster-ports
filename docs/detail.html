@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="https://md-block.verou.me/md-block.js"></script>
     <title>Port Details</title>
     <style>
         body {
@@ -35,6 +36,7 @@
             display: block;
             margin: 0 auto;
         }
+
 
         /* Additional styles for larger screens if necessary */
         @media screen and (min-width: 768px) {
@@ -82,7 +84,7 @@
             porterElement.textContent = "Porter: " + data.attr.porter;
 
             const markdownElement = document.createElement("md-block")
-            markdownElement.setAttribute("src","")
+            markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.source.replace("zip","md"))
 
             detailsContainer.appendChild(titleElement);
             detailsContainer.appendChild(imageElement);
@@ -91,6 +93,7 @@
             //detailsContainer.appendChild(typeElement);
             detailsContainer.appendChild(genreElement);
             detailsContainer.appendChild(porterElement);
+            detailsContainer.appendChild(markdownElement)
 
         }
 
