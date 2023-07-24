@@ -27,9 +27,14 @@
             text-align: center;
         }
 
+        a {
+            margin-bottom: 0;
+            text-align: center;
+        }
+        
+
         img {
             max-width: 100%;
-            
             display: block;
             margin: 0 auto;
         }
@@ -71,26 +76,35 @@
             const instructionElement = document.createElement('p');
             instructionElement.textContent = "Instructions: " + (data.attr.inst ?? '');
 
-            //const typeElement = document.createElement('p');
-            //typeElement.textContent = "Type: " + data.type;
-
             const genreElement = document.createElement('p');
             genreElement.textContent = "Genres: " + data.attr.genres.join();
 
-            const porterElement = document.createElement("p")
+            const runtimeElement = document.createElement('p');
+            runtimeElement.textContent = "Runtime: " + (data.attr.runtime ?? 'None');
+
+            const requirementsElement = document.createElement('p');
+            requirementsElement.textContent = "Requirements: " + (data.attr.reqs.join(","));
+
+            const porterElement = document.createElement("p");
             porterElement.textContent = "Porter: " + data.attr.porter;
 
-            const markdownElement = document.createElement("md-block")
-            markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.source.toLowerCase().replace("zip","md"))
+            const fileElement = document.createElement("a");
+            fileElement.textContent = data.source;
+            fileElement.setAttribute("href","https://github.com/christianhaitian/PortMaster/raw/main/" + data.source);
+
+            const markdownElement = document.createElement("md-block");
+            markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.source.toLowerCase().replace("zip","md"));
 
             detailsContainer.appendChild(titleElement);
             detailsContainer.appendChild(imageElement);
             detailsContainer.appendChild(contentElement);
             detailsContainer.appendChild(instructionElement);
-            //detailsContainer.appendChild(typeElement);
+            detailsContainer.appendChild(runtimeElement);
             detailsContainer.appendChild(genreElement);
+            detailsContainer.appendChild(requirementsElement);
             detailsContainer.appendChild(porterElement);
-            detailsContainer.appendChild(markdownElement)
+            detailsContainer.appendChild(fileElement);
+            detailsContainer.appendChild(markdownElement);
 
         }
 
