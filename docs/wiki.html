@@ -112,7 +112,7 @@
             contentElement.textContent = "Description: " + data.attr.desc;
 
             const instructionElement = document.createElement('p');
-            instructionElement.textContent = "Instructions: " + data.instructions;
+            instructionElement.textContent = "Instructions: " + (data.instructions ?? '');
 
 
             const genreElement = document.createElement('p');

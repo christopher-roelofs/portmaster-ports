@@ -69,7 +69,7 @@
             contentElement.textContent = "Description: " + data.attr.desc;
 
             const instructionElement = document.createElement('p');
-            instructionElement.textContent = "Instructions: " + data.attr.inst;
+            instructionElement.textContent = "Instructions: " + (data.attr.inst ?? '');
 
             //const typeElement = document.createElement('p');
             //typeElement.textContent = "Type: " + data.type;
