@@ -68,7 +68,7 @@
 
 
             const imageElement = document.createElement("img");
-            imageElement.src = "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/" + data.attr.image.screenshot;
+            imageElement.src = (data.attr.image ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.image.screenshot: "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
             imageElement.className = "card-img"
 
             const contentElement = document.createElement('p');
@@ -94,7 +94,7 @@
             fileElement.setAttribute("href","https://github.com/christianhaitian/PortMaster/raw/main/" + data.source);
 
             const markdownElement = document.createElement("md-block");
-            markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.source.toLowerCase().replace("zip","md"));
+            markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.name.toLowerCase().replace("zip","md"));
 
             detailsContainer.appendChild(titleElement);
             detailsContainer.appendChild(imageElement);
@@ -113,7 +113,7 @@
         async function fetchDataAndDisplayDetails() {
             try {
                 const title = getUrlParameter('title');
-                const response = await fetch('https://raw.githubusercontent.com/kloptops/pugwash/main/pugwash/data/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
                 if (!response.ok) {
                     throw new Error('Network response was not ok.');
                 }
