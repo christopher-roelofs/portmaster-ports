@@ -1,0 +1,983 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>gptokeyb mapper</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!----  <style>
+        .mb-3 {
+            float: left;
+            width: 33%;
+        }
+    </style>
+-->
+</head>
+
+<body class="p-3 m-0 border-0 bd-example m-0 border-0">
+
+
+    <form>
+        <div class="mb-3">
+            <label for="back_button" class="form-label">Back Button: </label>
+            <select name="back_button" id="back_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc" selected>Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="start_button" class="form-label">Start Button: </label>
+            <select name="start_button" id="start_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="a_button" class="form-label">A Button: </label>
+            <select name="a_button" id="a_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="b_button" class="form-label">B Button: </label>
+            <select name="b_button" id="b_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="x_button" class="form-label">X Button: </label>
+            <select name="x_button" id="x_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="y_button" class="form-label">Y Button: </label>
+            <select name="y_button" id="y_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="l1_button" class="form-label">L1 Button: </label>
+            <select name="l1_button" id="l1_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="l2_button" class="form-label">L2 Button: </label>
+            <select name="l2_button" id="l2_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="r1_button" class="form-label">R1 Button: </label>
+            <select name="r1_button" id="r1_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="r2_button" class="form-label">R2 Button: </label>
+            <select name="r2_button" id="r2_button">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter" selected>Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="dpad_up" class="form-label">Dpad Up: </label>
+            <select name="dpad_up" id="dpad_up">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up" selected>Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="dpad_down" class="form-label">Dpad Down: </label>
+            <select name="dpad_down" id="dpad_down">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down" selected>Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="dpad_left" class="form-label">Dpad Left: </label>
+            <select name="dpad_left" id="dpad_left">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left" selected>Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="dpad_right" class="form-label">Dpad Right: </label>
+            <select name="dpad_right" id="dpad_right">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right" selected>Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="lstick_up" class="form-label">Left Joystick Up: </label>
+            <select name="lstick_up" id="lstick_up">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up" selected>Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="lstick_down" class="form-label">Left Joystick Down: </label>
+            <select name="lstick_down" id="lstick_down">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down" selected>Down</option>
+                <option value="left">Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="lstick_left" class="form-label">Left Joystick Left: </label>
+            <select name="lstick_left" id="lstick_left">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left" selected>Left</option>
+                <option value="right">Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="lstick_right" class="form-label">Left Joystick Right: </label>
+            <select name="lstick_right" id="lstick_right">
+                <option value="a">A</option>
+                <option value="b">B</option>
+                <option value="c">C</option>
+                <option value="d">D</option>
+                <option value="e">E</option>
+                <option value="f">F</option>
+                <option value="g">G</option>
+                <option value="h">H</option>
+                <option value="i">I</option>
+                <option value="j">J</option>
+                <option value="k">K</option>
+                <option value="l">L</option>
+                <option value="m">M</option>
+                <option value="n">N</option>
+                <option value="o">O</option>
+                <option value="p">P</option>
+                <option value="q">Q</option>
+                <option value="r">R</option>
+                <option value="s">S</option>
+                <option value="t">T</option>
+                <option value="u">U</option>
+                <option value="v">V</option>
+                <option value="w">W</option>
+                <option value="x">X</option>
+                <option value="y">Y</option>
+                <option value="z">Z</option>
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="enter">Enter</option>
+                <option value="space">space</option>
+                <option value="home">Home</option>
+                <option value="up">Up</option>
+                <option value="down">Down</option>
+                <option value="left">Left</option>
+                <option value="right" selected>Right</option>
+                <option value="esc">Escape</option>
+            </select>
+        </div>
+    </form>
+    <button onclick="readContent()" class="btn btn-primary">Submit</button>
+
+    <!-- End Example Code -->
+
+    <div>
+        <textarea id="gptk" name="gptk" rows="4"
+            cols="40"></textarea>
+    </div>
+    <script>
+        function readContent() {
+            var content = "";
+            content = content + "back = " + document.getElementById("back_button").value + "\n";
+            content = content + "start = " + document.getElementById("start_button").value + "\n";
+            content = content + "\n";
+            content = content + "a = " + document.getElementById("a_button").value + "\n";
+            content = content + "b = " + document.getElementById("b_button").value + "\n";
+            content = content + "x = " + document.getElementById("x_button").value + "\n";
+            content = content + "y = " + document.getElementById("y_button").value + "\n";
+            content = content + "\n";
+            content = content + "l1 = " + document.getElementById("l1_button").value + "\n";
+            content = content + "l2 = " + document.getElementById("l2_button").value + "\n";
+            content = content + "\n";
+            content = content + "r1 = " + document.getElementById("r1_button").value + "\n";
+            content = content + "r2 = " + document.getElementById("r2_button").value + "\n";
+            content = content + "\n";
+            content = content + "up = " + document.getElementById("dpad_up").value + "\n";
+            content = content + "down = " + document.getElementById("dpad_down").value + "\n";
+            content = content + "left = " + document.getElementById("dpad_left").value + "\n";
+            content = content + "right = " + document.getElementById("dpad_right").value + "\n";
+            content = content + "\n";
+            content = content + "left_analog_up = " + document.getElementById("lstick_up").value + "\n";
+            content = content + "left_analog_down = " + document.getElementById("lstick_down").value + "\n";
+            content = content + "left_analog_left = " + document.getElementById("lstick_left").value + "\n";
+            content = content + "left_analog_right = " + document.getElementById("lstick_right").value + "\n";
+            document.getElementById("gptk").textContent = content
+        }
+
+    </script>
+</body>
+
+</html>
