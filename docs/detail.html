@@ -68,7 +68,7 @@
 
 
             const imageElement = document.createElement("img");
-            imageElement.src = (data.attr.image ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.image.screenshot: "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
+            imageElement.src = (data.attr.media.screenshot ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.media.screenshot: "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
             imageElement.className = "card-img"
 
             const contentElement = document.createElement('p');
@@ -90,8 +90,8 @@
             porterElement.textContent = "Porter: " + data.attr.porter;
 
             const fileElement = document.createElement("a");
-            fileElement.textContent = data.source;
-            fileElement.setAttribute("href","https://github.com/christianhaitian/PortMaster/raw/main/" + data.source);
+            fileElement.textContent = data.name;
+            fileElement.setAttribute("href",data.download_url);
 
             const markdownElement = document.createElement("md-block");
             markdownElement.setAttribute("src","https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/" + data.name.toLowerCase().replace("zip","md"));
