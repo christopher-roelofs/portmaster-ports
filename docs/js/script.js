@@ -26,7 +26,6 @@ function displayCardDetails(data) {
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
     const runtimeElement = document.getElementById('runtime');
-    console.log("");
     runtimeElement.textContent = data.attr.runtime ?? 'None';
 
     const requirementsElement = document.getElementById('reqs');
