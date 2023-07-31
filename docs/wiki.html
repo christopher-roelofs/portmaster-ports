@@ -109,17 +109,18 @@
             titleElement.textContent = data.attr.title;
 
             titleElement.addEventListener('click', () => {
-                const title = titleElement.textContent;
-                handleCardClick(title);
+                handleCardClick(data.name);
             });
-
+            var image = "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png";
+            if (data.attr.media.screenshot !== null) {
+              image =   "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" +  data.attr.media.screenshot;
+            }
             const imageElement = document.createElement("img");
-            imageElement.src =  (data.attr.image ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.image.screenshot: "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
+            imageElement.src = image;
             imageElement.className = "card-img"
 
             imageElement.addEventListener('click', () => {
-                const title = titleElement.textContent;
-                handleCardClick(title);
+                handleCardClick(data.name);
             });
 
             const contentElement = document.createElement('p');
@@ -186,8 +187,8 @@
         }
 
         // Function to handle the card title click and redirect to the detail page
-        function handleCardClick(title) {
-            window.location.href = `detail.html?title=${encodeURIComponent(title)}`;
+        function handleCardClick(name) {
+            window.location.href = `detail.html?name=${encodeURIComponent(name)}`;
         }
 
         // Function to clear the search bar and show all cards
