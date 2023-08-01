@@ -4,7 +4,6 @@ function getUrlParameter(name) {
     return urlParams.get(name);
 }
 
-// lets use jquery to process the json
 function displayCardDetails(data) {
 
     data.attr.title ? document.getElementById('title').textContent = data.attr.title : document.getElementsByClassName('title').hidden = true;
