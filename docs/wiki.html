@@ -101,6 +101,7 @@
 
     <script>
         var jsonData = null;
+        var countsData = null;
         // Function to create a card element for each JSON object
         function createCard(data) {
             const cardElement = document.createElement('div');
@@ -137,6 +138,8 @@
             const porterElement = document.createElement('p');
             porterElement.textContent = "Porter: " + data.attr.porter;
 
+            const downloadCountElement = document.createElement('p');
+            downloadCountElement.textContent = "Downloads: " + countsData[data.name];
 
 
             cardElement.appendChild(titleElement);
@@ -145,6 +148,7 @@
             cardElement.appendChild(instructionElement);
             cardElement.appendChild(genreElement);
             cardElement.appendChild(porterElement);
+            cardElement.appendChild(downloadCountElement);
 
 
             return cardElement;
@@ -200,8 +204,19 @@
 
         // Fetch JSON data from the URL and then display the cards
         async function fetchDataAndDisplayCards() {
+
             try {
-                const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/counts.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                countsData = await response.json();
+            } catch (error) {
+                console.error('Error fetching JSON data:', error);
+            }
+
+            try {
+                var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
                 if (!response.ok) {
                     throw new Error('Network response was not ok.');
                 }

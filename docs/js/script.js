@@ -19,6 +19,8 @@ function displayCardDetails(data) {
     data.attr.instr ? document.getElementById('instr').textContent = data.attr.instr : document.getElementsByClassName('instr').hidden = true;
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
+    data.download_count ? document.getElementById('download_count').textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
+
     const genreElement = document.getElementById('genres');
     genreElement.textContent = data.attr.genres.join();
 
@@ -45,7 +47,10 @@ function displayCardDetails(data) {
 async function fetchDataAndDisplayDetails() {
     try {
         const name = getUrlParameter('name');
-        const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+
+
+
+        var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
         if (!response.ok) {
             throw new Error('Network response was not ok.');
         }
@@ -59,6 +64,17 @@ async function fetchDataAndDisplayDetails() {
             }
         };
 
+        try {
+            var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/counts.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+            if (!response.ok) {
+                throw new Error('Network response was not ok.');
+            }
+            countsData = await response.json();
+        } catch (error) {
+            console.error('Error fetching JSON data:', error);
+        }
+
+        card["download_count"] = countsData[card.name]
 
         if (card) {
             displayCardDetails(card);

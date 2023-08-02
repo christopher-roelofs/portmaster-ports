@@ -12,4 +12,4 @@ for item in json.loads(resposne.text):
             else:
                 assets[asset["name"]] += int(asset["download_count"])
 
-print(json.dumps(assets))
+print(assets)
