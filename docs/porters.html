@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Porter Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+        }
+
+        #cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding-top: 70px;
+            /* Add padding between the search bar and the row of cards */
+        }
+
+        .card {
+            width: 325px;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .card-img {
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 100%;
+            max-width: 300px;
+
+        }
+
+        h3 {
+            margin-top: 0;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+
+
+
+
+        @media screen and (min-width: 768px) {}
+    </style>
+</head>
+
+<body>
+
+    <div>
+        <md-block id="markdown"
+            src="https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/wiki/default.md">
+        </md-block>
+    </div>
+
+    <div id="cards-container"></div>
+
+    <script>
+        var jsonData = null;
+
+        function getUrlParameter(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+        // Function to create a card element for each JSON object
+        function createCard(data) {
+            const cardElement = document.createElement('div');
+            cardElement.className = 'card';
+
+            const titleElement = document.createElement('h3');
+            titleElement.textContent = data.attr.title;
+
+            titleElement.addEventListener('click', () => {
+                handleCardClick(data.name);
+            });
+            var image = "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png";
+            if (data.attr.media.screenshot !== null) {
+                image = "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.media.screenshot;
+            }
+            const imageElement = document.createElement("img");
+            imageElement.src = image;
+            imageElement.className = "card-img"
+
+            imageElement.addEventListener('click', () => {
+                handleCardClick(data.name);
+            });
+
+
+
+            const contentElement = document.createElement('p');
+            contentElement.textContent = "Description: " + data.attr.desc;
+
+            const instructionElement = document.createElement('p');
+            instructionElement.textContent = "Instructions: " + (data.instructions ?? '');
+
+
+            const genreElement = document.createElement('p');
+            genreElement.textContent = "Genres: " + data.attr.genres.join();
+
+            const porterElement = document.createElement('p');
+            porterElement.textContent = "Porter: " + data.attr.porter;
+
+
+
+            cardElement.appendChild(titleElement);
+            cardElement.appendChild(imageElement);
+            cardElement.appendChild(contentElement);
+            cardElement.appendChild(instructionElement);
+            cardElement.appendChild(genreElement);
+            cardElement.appendChild(porterElement);
+
+
+            return cardElement;
+        }
+
+        // Function to iterate over the JSON data and display cards
+        function displayCards(data) {
+            const cardsContainer = document.getElementById('cards-container');
+            cardsContainer.innerHTML = ''; // Clear previous cards
+            for (var key of Object.keys(data)) {
+                const card = createCard(data[key]);
+                cardsContainer.appendChild(card);
+            };
+        }
+
+        // Function to filter the cards based on the search query
+        function filterCards() {
+            const searchQuery = getUrlParameter('porter');
+            var filteredData = {}
+            for (var key of Object.keys(jsonData)) {
+                if (jsonData[key].attr.porter.toLowerCase().includes(searchQuery.toLocaleLowerCase())) {
+                    console.log(jsonData[key]);
+                    filteredData[key] = jsonData[key];
+                }
+            };
+            displayCards(filteredData);
+            const markdownElement = document.getElementById("markdown");
+            markdownElement.setAttribute("src", "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/porters/" + searchQuery + ".md");
+        }
+
+        // Function to handle the card title click and redirect to the detail page
+        function handleCardClick(name) {
+            window.location.href = `detail.html?name=${encodeURIComponent(name)}`;
+        }
+
+        // Function to clear the search bar and show all cards
+        function clearSearch() {
+            document.getElementById('search-bar').value = ''; // Clear the search input
+            filterCards(); // Show all cards again
+        }
+
+        // Fetch JSON data from the URL and then display the cards
+        async function fetchDataAndDisplayCards() {
+            try {
+                const response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/ports.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                if (!response.ok) {
+                    throw new Error('Network response was not ok.');
+                }
+                jsonData = await response.json();
+                jsonData = jsonData.ports
+                filterCards();
+            } catch (error) {
+                console.error('Error fetching JSON data:', error);
+            }
+        }
+
+        // Call the initial fetchDataAndDisplayCards function when the page is loaded
+        window.onload = function () {
+            fetchDataAndDisplayCards();
+        };
+    </script>
+</body>
+
+</html>
