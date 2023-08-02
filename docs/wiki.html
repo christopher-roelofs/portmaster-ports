@@ -206,7 +206,6 @@
                     throw new Error('Network response was not ok.');
                 }
                 jsonData = await response.json();
-                jsonData = jsonData.ports
                 displayCards(jsonData);
             } catch (error) {
                 console.error('Error fetching JSON data:', error);
