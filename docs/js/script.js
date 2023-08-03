@@ -19,10 +19,17 @@ function displayCardDetails(data) {
     data.attr.instr ? document.getElementById('instr').textContent = data.attr.instr : document.getElementsByClassName('instr').hidden = true;
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
-    data.download_count ? document.getElementById('download_count').textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
+    data.downloadcount ? document.getElementById('download_count').innerHTML = textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
 
-    const genreElement = document.getElementById('genres');
-    genreElement.textContent = data.attr.genres.join();
+    // ```````````````````````````````````````````````````````````````````````````````````````const genreElement``````````````````````````````````````````````````````````````````````````````````````` = document.getElementById('genres');
+    // genreElement.textContent = data.attr.genres.join();
+    
+    var taggedGenres = "";
+    data.attr.genres.forEach((genre) => {
+        taggedGenres += '<span class="badge bg-primary">' + genre + '</span>';
+    });
+    
+       taggedGenres ? document.getElementById("genres").textContent = taggedGenres : true;
 
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
