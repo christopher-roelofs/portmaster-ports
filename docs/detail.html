@@ -12,31 +12,44 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
     <script src="js/script.js" type="text/javascript"></script>
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"> -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/sandstone/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-utilities@4.1.3/bootstrap-utilities.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootswatch@5.3.0/dist/slate/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
-        <div class="container">
-            <a class="navbar-brand" href="#"><strong>PortMaster Wiki: Game Details</strong></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                </ul>
-                <button class="btn btn-sm btn-light justify-self-end" id="theme-changer" type="button"
-                    title="Change Theme">
-                    <i class="bi bi-sun-fill"></i>
+    <header>
+        <div class="collapse bg-dark" id="navbarHeader">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-md-7 py-4">
+                        <h4 class="text-white">About</h4>
+                        <p class="text-muted">A simple tool that allows you to download various game ports that are available for various linux handhelds.</p>
+                    </div>
+                    <div class="col-sm-4 offset-md-1 py-4">
+                        <h4 class="text-white">Contact</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-white"><i class="bi bi-globe me2"></i>Website</a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-discord me2"></i>Discord</a></li>
+                            <li><a href="#" class="text-white"><i class="bi bi-github me2"></i>GitHub</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+            <div class="container">
+                <a href="#" class="navbar-brand d-flex align-items-center">
+                    <i class="bi bi-box2-heart-fill me2" style="margin-right: .5rem!important"></i>
+                    <strong>PortMaster</strong>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
+                    aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
             </div>
         </div>
-    </nav>
-
+    </header>
     <main data-bs-theme="light">
         <div class="container">
             <div class="px-2 pt-4 text-center">
@@ -50,6 +63,8 @@
                             max-width="700" max-height="500" loading="lazy">
                     </div>
                 </div>
+                <!-- HEADER -->
+                
                 <div class="col-lg-8 mx-auto">
                     <!-- Description -->
                     <div class="desc">
@@ -71,7 +86,7 @@
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5   ">
                     <div class="col d-flex align-items-start">
                         <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em">
-                            <use xlink:href="#cpu-fill" />
+                            <i class="bi bi-cpu-fill me2" width="1.75em" height="1.75em"></i><use xlink:href="#cpu-fill" />
                         </svg>
                         <div class="inst">
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Instructions</h3>
