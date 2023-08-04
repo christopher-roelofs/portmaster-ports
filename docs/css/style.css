@@ -155,3 +155,16 @@ img, svg {
   height: 1.75em;
   font-size: 1.5em;
 }
+
+.footer-iccon {
+  font-size: 1.5em;  
+}
+
+.hidden {
+  display:none;
+}
+
+#genres .genre-item {
+
+  margin-right: 0.5em;
+}

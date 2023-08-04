@@ -19,13 +19,15 @@
 </head>
 
 <body>
+
     <header>
         <div class="collapse bg-dark" id="navbarHeader">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
-                        <h4 class="text-white">About</h4>
-                        <p class="text-muted">What is <strong>PortMaster</strong>? A simple tool that allows you to download various game ports that are
+                        <h4 class="text-white">Liba</h4>
+                        <p class="text-muted">What is <strong>PortMaster</strong>? A simple tool that allows you to
+                            download various game ports that are
                             available for various linux handhelds.</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
@@ -52,6 +54,28 @@
             </div>
         </div>
     </header>
+
+    <!-- <div class="container my-5">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb breadcrumb-chevron p-3 bg-body-tertiary rounded-3">
+                <li class="breadcrumb-item">
+                    <a class="link-body-emphasis" href="#">
+                        <svg class="bi" width="16" height="16">
+                            <use xlink:href="#house-door-fill"></use>
+                        </svg>
+                        <span class="visually-hidden">Home</span>
+                    </a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a class="link-body-emphasis fw-semibold text-decoration-none" href="#">Library</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">
+                    Data
+                </li>
+            </ol>
+        </nav>
+    </div> -->
+
     <main data-bs-theme="light">
         <div class="container">
             <div class="px-2 pt-4 text-center">
@@ -61,13 +85,13 @@
                 <!-- Screenshot -->
                 <div class="overflow-hidden" style="max-height: 60vh;">
                     <div class="container px-0 screenshot">
-                        <img id="screenshot" src="" class="img-fluid border rounded-3 shadow-lg" alt="Example image"
-                            max-width="700" max-height="500" loading="lazy">
+                        <img id="screenshot" src="" class="img-fluid border rounded-3 p3 mb-5shadow-lg" alt="Example image"
+                            width="auto" height="auto" loading="lazy">
                     </div>
                 </div>
                 <!-- HEADER -->
 
-                <div class= "col-lg-8 mx-auto">
+                <div class="col-lg-8 mx-auto">
                     <!-- Description -->
                     <div class="desc">
                         <p class="lead mb-4 mt-4" id="desc"></p>
@@ -106,7 +130,9 @@
                         <!-- Genres -->
                         <div class="genres">
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Genres</h3>
-                            <p id="genres"><!--INSERT HERE--></p>
+                            <div class="d-flex gap-2 mb-3">
+                                <p id="genres"><!--INSERT HERE--></p>
+                            </div>
                         </div>
                     </div>
                     <div class="col d-flex align-items-start">
@@ -126,7 +152,7 @@
                         </div>
                     </div>
                     <div class="col d-flex align-items-start">
-                        <i class="ft-s bi bi-download me-3"></i>                        <!-- download Count-->
+                        <i class="ft-s bi bi-download me-3"></i> <!-- download Count-->
                         <div class="porter">
                             <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Downloads</h3>
                             <p id="download_count"><!---INSERT HERE--></p>
@@ -136,7 +162,7 @@
             </div>
 
 
-            <div class="markdown px-4 py-5 pt-0">
+            <div id="additional-information" class="markdown px-4 py-5 pt-0 hidden">
                 <h2 class="pb-2 border-bottom">Additional Information</h2>
                 <div class="py-5">
                     <md-block id="markdown"
@@ -145,11 +171,24 @@
                 </div>
             </div>
         </div>
-
     </main>
-    <footer class="pt-5 my-5 text-body-secondary border-top container">
-        Created by the PortMaster team &middot; &copy; 2023
-    </footer>
+
+        <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top bg-dark">
+    <div class="container">
+            <div class="col-md-4 d-flex align-items-center">
+            <i class="bi bi-box2-heart-fill me2 text-body-secondary"></i>
+            <span class="text-body-secondary">© 2023 PortMaster</span>
+          </div>
+      
+          <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="text-body-emphasisbi bi-globe me2"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="text-body-emphasisbi bi-discord me2"></i></a></li>
+            <li class="ms-3"><a class="text-body-secondary" href="#"><i class="text-body-emphasisbi bi-github me2"></i></a></li>
+          </ul>
+    </div>
+        </footer>
+
+
     <script type="text/javascript">
         //debugger;
         // Call the fetchDataAndDisplayDetails function when the page is loaded
@@ -158,4 +197,4 @@
     </script>
 </body>
 
-</html>
+</html
