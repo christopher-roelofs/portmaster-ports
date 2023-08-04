@@ -31,7 +31,7 @@
     <form>
         <div class="mb-3">
             <label for="name" class="form-label">Name</label>
-            <input type="text" class="form-control" id="name">
+            <input required type="text" class="form-control" id="name">
         </div>
         <div class="mb-3">
             <label for="social" class="form-label">Social Media Link</label>
@@ -49,8 +49,9 @@
             <label for="image" class="form-label">Profile Image URL</label>
             <input type="text" class="form-control" id="image">
         </div>
+        <button type="submit" onclick="updateProfile()" class="btn btn-primary">Submit</button>
     </form>
-    <button type="submit" onclick="updateProfile()" class="btn btn-primary">Submit</button>
+    
     <br>
     <br>
     <br>
@@ -74,9 +75,17 @@
                 supportElement.value = porters[porter].support
                 webpageElement.value = porters[porter].webpage
                 imageElement.value = porters[porter].image
+                nameElement.readOnly = true;
             }
-
+            else {
+                nameElement.value = "";
+                socialElement.value = "";
+                supportElement.value = "";
+                webpageElement.value = "";
+                imageElement.value = "";
+                nameElement.readOnly = false;
         }
+    }
 
         function updateProfile() {
             var name = selectElement.value;
