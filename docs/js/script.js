@@ -13,7 +13,7 @@ function displayCardDetails(data) {
     imageElement.src = (data.attr.media.screenshot ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.media.screenshot : "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
 
 
-    //data.attr.desc ? document.getElementById('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
+    //data.attr.desc ? document.getEleme('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
     descriptionElement = document.getElementById('desc');
     descriptionElement.textContent = data.attr.desc;
     data.attr.instr ? document.getElementById('instr').textContent = data.attr.instr : document.getElementsByClassName('instr').hidden = true;
@@ -29,7 +29,7 @@ function displayCardDetails(data) {
         taggedGenres += '<span class="badge bg-primary">' + genre + '</span>';
     });
     
-       taggedGenres ? document.getElementById("genres").textContent = taggedGenres : true;
+       taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
