@@ -76,14 +76,11 @@
             position: fixed;
             /* Position above the columns */
             right: 15px;
-            
-        }
-
-            
-        @media screen and (min-width: 768px) {
-
 
         }
+
+
+        @media screen and (min-width: 768px) {}
     </style>
 </head>
 
@@ -115,7 +112,7 @@
             });
             var image = "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png";
             if (data.attr.media.screenshot !== null) {
-              image =   "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" +  data.attr.media.screenshot;
+                image = "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.media.screenshot;
             }
             const imageElement = document.createElement("img");
             imageElement.src = image;
@@ -137,6 +134,11 @@
 
             const porterElement = document.createElement('p');
             porterElement.textContent = "Porter: " + data.attr.porter;
+            porterElement.addEventListener('click', () => {
+                handlePorterClick(data.attr.porter);
+            });
+
+
 
             const downloadCountElement = document.createElement('p');
             downloadCountElement.textContent = "Downloads: " + countsData[data.name];
@@ -174,16 +176,16 @@
                 queries.forEach(element => {
                     if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element) || jsonData[key].attr.porter.toLowerCase().includes(element)) {
 
-                        if (readyToRun){
-                            if (jsonData[key].attr.rtr){
+                        if (readyToRun) {
+                            if (jsonData[key].attr.rtr) {
                                 filteredData[key] = jsonData[key];
                             }
                         }
                         else {
                             filteredData[key] = jsonData[key];
                         }
-                        
-                        
+
+
                     }
                 });
 
@@ -194,6 +196,11 @@
         // Function to handle the card title click and redirect to the detail page
         function handleCardClick(name) {
             window.location.href = `detail.html?name=${encodeURIComponent(name)}`;
+        }
+
+        // Function to handle the card title click and redirect to the detail page
+        function handlePorterClick(name) {
+            window.location.href = `porters.html?porter=${encodeURIComponent(name)}`;
         }
 
         // Function to clear the search bar and show all cards
