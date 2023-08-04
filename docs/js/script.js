@@ -13,22 +13,32 @@ function displayCardDetails(data) {
     imageElement.src = (data.attr.media.screenshot ? "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" + data.attr.media.screenshot : "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png");
 
 
-    //data.attr.desc ? document.getElementById('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
+    //data.attr.desc ? document.getEleme('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
     descriptionElement = document.getElementById('desc');
     descriptionElement.textContent = data.attr.desc;
     data.attr.instr ? document.getElementById('instr').textContent = data.attr.instr : document.getElementsByClassName('instr').hidden = true;
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
-    data.download_count ? document.getElementById('download_count').textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
+    data.downloadcount ? document.getElementById('download_count').innerHTML = textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
 
-    const genreElement = document.getElementById('genres');
-    genreElement.textContent = data.attr.genres.join();
+    // ```````````````````````````````````````````````````````````````````````````````````````const genreElement``````````````````````````````````````````````````````````````````````````````````````` = document.getElementById('genres');
+     genreElement.textContent = data.attr.genres.join();
+      
+    
+    
+    data.attr.desc ? document.getEleme('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
+    var taggedGenres = "";
+    data.attr.genres.forEach((genre) => {
+        taggedGenres += '<span class="genre-item badge bg-secondary">' + genre + '</span>';
+    });
+    
+       taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
     const runtimeElement = document.getElementById('runtime');
     runtimeElement.textContent = data.attr.runtime ?? 'None';
-
+                                                                                                                                                                                                                                                                                                                                                                            
     const requirementsElement = document.getElementById('reqs');
     requirementsElement.textContent = data.attr.reqs.join();
 
