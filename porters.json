@@ -34,29 +34,22 @@
         "webpage": "",
         "image": ""
     },
-    "Kloptops and Cebion": {
-        "name": "Kloptops and Cebion",
+    "kloptops": {
+        "name": "kloptops",
         "social": "",
         "support": "",
         "webpage": "",
         "image": ""
     },
-    "Johnny on Flame, Overflask, and Nuxx": {
-        "name": "Johnny on Flame, Overflask, and Nuxx",
+    "Overflask": {
+        "name": "Overflask",
         "social": "",
         "support": "",
         "webpage": "",
         "image": ""
     },
-    "jetup": {
-        "name": "jetup",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
-    "Cebion and romadu": {
-        "name": "Cebion and romadu",
+    "Nuxx": {
+        "name": "Nuxx",
         "social": "",
         "support": "",
         "webpage": "",
@@ -69,22 +62,8 @@
         "webpage": "",
         "image": ""
     },
-    "Jetup and Romadu": {
-        "name": "Jetup and Romadu",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
     "Tekkenfede": {
         "name": "Tekkenfede",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
-    "Romadu": {
-        "name": "Romadu",
         "social": "",
         "support": "",
         "webpage": "",
@@ -97,22 +76,8 @@
         "webpage": "",
         "image": ""
     },
-    "Kloptops": {
-        "name": "Kloptops",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
     "Orson": {
         "name": "Orson",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
-    "kloptops": {
-        "name": "kloptops",
         "social": "",
         "support": "",
         "webpage": "",
@@ -125,8 +90,8 @@
         "webpage": "",
         "image": ""
     },
-    "krishenriksen (kreal)": {
-        "name": "krishenriksen (kreal)",
+    "krishenriksen": {
+        "name": "krishenriksen",
         "social": "",
         "support": "",
         "webpage": "",
@@ -134,20 +99,6 @@
     },
     "brooksytech": {
         "name": "brooksytech",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
-    "jetup and romadu": {
-        "name": "jetup and romadu",
-        "social": "",
-        "support": "",
-        "webpage": "",
-        "image": ""
-    },
-    "JohnnyonFlame": {
-        "name": "JohnnyonFlame",
         "social": "",
         "support": "",
         "webpage": "",
@@ -167,8 +118,8 @@
         "webpage": "",
         "image": ""
     },
-    "kloptops and Snoopy": {
-        "name": "kloptops and Snoopy",
+    "Snoopy": {
+        "name": "Snoopy",
         "social": "",
         "support": "",
         "webpage": "",
