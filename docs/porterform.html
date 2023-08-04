@@ -49,10 +49,11 @@
             <label for="image" class="form-label">Profile Image URL</label>
             <input type="text" class="form-control" id="image">
         </div>
-        <button type="submit" onclick="updateProfile()" class="btn btn-primary">Submit</button>
+
     </form>
-    
+
     <br>
+    <button type="submit" onclick="updateProfile()" class="btn btn-primary">Submit</button>
     <br>
     <br>
     <div id="json">
@@ -68,7 +69,7 @@
         var imageElement = document.getElementById("image");
 
         function selectPorter() {
-            var porter = selectElement.value;
+            var porter = document.getElementById("porters").value;
             if (porter != "Add New Porter") {
                 nameElement.value = porters[porter].name;
                 socialElement.value = porters[porter].social
@@ -84,17 +85,30 @@
                 webpageElement.value = "";
                 imageElement.value = "";
                 nameElement.readOnly = false;
+            }
         }
-    }
 
         function updateProfile() {
-            var name = selectElement.value;
-            porters[name].name = name;
-            porters[name].social = socialElement.value;
-            porters[name].support = supportElement.value;
-            porters[name].webpage = webpageElement.value;
-            porters[name].image = imageElement.value;
-            document.getElementById("json").textContent = JSON.stringify(porters);
+            var name = document.getElementById("name").value;
+            if (name = "") {
+                porters[name] = {};
+                porters[name].name = name;
+                porters[name].social = socialElement.value;
+                porters[name].support = supportElement.value;
+                porters[name].webpage = webpageElement.value;
+                porters[name].image = imageElement.value;
+                document.getElementById("json").textContent = JSON.stringify(porters);
+                for (var key of Object.keys(porters)) {
+                    var opt = document.createElement('option');
+                    opt.value = key;
+                    opt.innerHTML = key;
+                    selectElement.appendChild(opt);
+                };
+            }
+            else {
+                alert("Name is a required field");
+            }
+
         }
 
         async function loadPorters() {
