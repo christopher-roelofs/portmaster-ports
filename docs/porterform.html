@@ -38,7 +38,7 @@
             <input type="text" class="form-control" id="social">
         </div>
         <div class="mb-3">
-            <label for="support" class="form-label">Support Page</label>
+            <label for="support" class="form-label">Donation Link (Ko-fi, PayPal etc)</label>
             <input type="text" class="form-control" id="support">
         </div>
         <div class="mb-3">
@@ -53,8 +53,9 @@
     </form>
 
     <br>
-    <button type="submit" onclick="updateProfile()" class="btn btn-primary">Submit</button>
+    <button onclick="updateProfile()" class="btn btn-primary">Submit</button>
     <br>
+    <button onclick="downloadJson()" class="btn btn-primary">Download Json</button>
     <br>
     <div id="json">
 
@@ -88,9 +89,28 @@
             }
         }
 
+        function downloadJson() {
+            var json = JSON.stringify(porters, null,2);
+            var file = new Blob([json], { type: "application/json" });
+            if (window.navigator.msSaveOrOpenBlob) // IE10+
+                window.navigator.msSaveOrOpenBlob(file, "porters.json");
+            else { // Others
+                var a = document.createElement("a"),
+                    url = URL.createObjectURL(file);
+                a.href = url;
+                a.download = "porters.json";
+                document.body.appendChild(a);
+                a.click();
+                setTimeout(function () {
+                    document.body.removeChild(a);
+                    window.URL.revokeObjectURL(url);
+                }, 0);
+            }
+        }
+
         function updateProfile() {
             var name = document.getElementById("name").value;
-            if (name !="") {
+            if (name != "") {
                 porters[name] = {};
                 porters[name].name = name;
                 porters[name].social = socialElement.value;
@@ -113,7 +133,7 @@
 
         async function loadPorters() {
             try {
-                var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/porters.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+                var response = await fetch('https://raw.githubusercontent.com/PortsMaster/PortMaster-Info/main/porters.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
                 if (!response.ok) {
                     throw new Error('Network response was not ok.');
                 }

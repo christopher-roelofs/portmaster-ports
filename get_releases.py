@@ -17,4 +17,4 @@ for item in json.loads(resposne.text):
             else:
                 assets[name_cleaner(asset["name"])] += int(asset["download_count"])
 
-print(json.dumps(assets))
+print(json.dumps(assets,indent = 4))
