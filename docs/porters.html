@@ -159,7 +159,11 @@
             const supportElement = document.getElementById("support");
             const coverElement = document.getElementById("cover");
 
-            nameElement.textContent = portersData[searchQuery].name
+            nameElement.textContent = portersData[searchQuery].name;
+            socialElement.textContent = portersData[searchQuery].social;
+            webpageElement.textContent = portersData[searchQuery].webpage;
+            supportElement.textContent = portersData[searchQuery].support;
+            supportElement.textContent = portersData[searchQuery].image;
         }
 
         // Function to handle the card title click and redirect to the detail page
