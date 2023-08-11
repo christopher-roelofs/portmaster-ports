@@ -71,6 +71,11 @@
     fill: currentColor;
 }
 
+a:not([href]) {
+    text-decoration: none;
+    color: var(--bs-secondary-color) !important;
+}
+
 .nav-scroller {
     position: relative;
     z-index: 2;
@@ -108,9 +113,6 @@
 
 [data-bs-theme="dark"] {
     border-color: #495057;
-}
-
-[data-bs-theme="dark"] {
     background: #222;
 }
 
