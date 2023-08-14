@@ -1,0 +1,412 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Yup, it's a WIP.">
+    <meta name="author" content="bamboozler, t0b10">
+    <meta name="generator" content="Hugo 0.115.4">
+    
+    <title>PortMaster Wiki</title>
+
+    <link rel="stylesheet" href="css/tekkenfede.min.css">
+    <link rel="stylesheet" href="css/wiki-mockup.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">    
+  </head>
+  <body>
+
+    <!-- Dark / Light Mode Switcher -->
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-secondary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+
+   <!-- Header --> 
+    <header data-bs-theme="dark">
+      <div class="collapse text-bg-dark" id="navbarHeader">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-8 col-md-7 py-4">
+              <h4>About</h4>
+              <p class="text-body-secondary">What is <strong>PortMaster</strong>?</p><p class="text-body-secondary">A simple tool that allows you to
+                download various game ports that are available for various linux handhelds.</p>
+            </div>
+            <div class="col-sm-4 offset-md-1 py-4">
+              <h4>Contact</h4>
+              <ul class="list-unstyled">
+                <li><a href="#" class="no-decoration text-white"><i class="header-icon bi bi-globe me2"></i>Website</a></li>
+                <li><a href="#" class="no-decoration text-white"><i class="header-icon bi bi-discord me2"></i>Discord</a></li>
+                <li><a href="#" class="no-decoration text-white"><i class="header-icon bi bi-github me2"></i>GitHub</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="navbar navbar-dark bg-dark shadow-sm">
+        <div class="container">
+          <a href="#" class="navbar-brand d-flex align-items-center">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" class="me-2" viewBox="0 0 16 16">
+              <path d="M8 7.982C9.664 6.309 13.`825 9.236 8 13 2.175 9.236 6.336 6.31 8 7.982Z"/>
+              <path d="M3.75 0a1 1 0 0 0-.8.4L.1 4.2a.5.5 0 0 0-.1.3V15a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1V4.5a.5.5 0 0 0-.1-.3L13.05.4a1 1 0 0 0-.8-.4h-8.5Zm0 1H7.5v3h-6l2.25-3ZM8.5 4V1h3.75l2.25 3h-6ZM15 5v10H1V5h14Z"/>
+            </svg>
+            <strong>PortMaster</strong>
+          </a>
+          <div class="d-flex vertical-center">
+            <a class="btn" data-bs-toggle="modal" class="navbar-brand search-navbar" data-bs-target="#searchModal"><svg xmlns="http://www.w3.org/2000/svg" style="margin-right: 1em" width="28" height="28" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg></a>            
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Modal Search -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h1 class="modal-title fs-5" id="exampleModalLabel">Port Search</h1>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Types of games to View?</option>
+                <option value="1">Ready to play</option>
+                <option value="2">Game files required</option>
+                <option value="3">All</option>
+              </select>
+              <div class="input group" style="width: 100%">
+                  <input class="form-text form-control" placeholder="search terms here" type="text" width="100%"></div></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-danger">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!-- Main Page -->  
+  <main>
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Our Ports</h1>
+          <p class="lead text-body-secondary">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+          <p>
+            <a href="#" class="btn btn-main btn-danger my-2">Learn more</a>
+            <a href="#" class="btn btn-main btn-secondary my-2">Get started</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Port Grid -->
+    <div class="album py-5 mb-3 bg-body-tertiary">
+      <div class="container">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/bermuda_syndrome.screenshot.jpg"></img>
+                </div>
+\                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-success">ready to play</span><h5 class="card-title" id="title">Bermuda Syndrome</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">A reimplemntation of the Berumuda Syndrome engine. You will need the original files of the PC release or PC demo copied to the ports/bermuda/DATA folder.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>action<br />
+                    <span class="list-label">Porter: </span>jetup</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">109 downloads</span></small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/abuse.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-warning">data required</span><h5 class="card-title" id="title">Abuse</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">A fork of the original Abuse SDL port from http://abuse.zoy.org/. An intense 2D shooter. Plays best on dual analog stick devices. Just download and play.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>action, horror<br />
+                    <span class="list-label">Porter: </span>romadu</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">178 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/duke.nukem.3d.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-success">ready to play</span><h5 class="card-title" id="title">Duke Nukem 3D</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">Duke Nukem 3D using the rednukem build open source port by Alexey Khokholov. You'll need to add your own full version duke3d.grp and duke.rts Duke Nukem 3D Atomic files to the ports/rednukem/gamedata folder.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>fps,action<br />
+                    <span class="list-label">Porter: </span>Romadu</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">132 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/undertale.screenshot.jpg"></img>
+                </div>            
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-warning">data required</span><h5 class="card-title" id="title">Undertale</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">Undertale loader. You must have a copy of Undertale Linux version assets copied to the ports/undertale/assets folder. For more info on the setup needs, see https://github.com/christianhaitian/arkos/wiki/ArkOS-Emulators-and-Ports-information</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>PRG, adventure<br />
+                    <span class="list-label">Porter: </span>krishenriksen (kreal)</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">378 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>        
+          <div class="col">
+            <!--Card Template -->            
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/timespinner.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-success">ready to play</span><h5 class="card-title" id="title">Timespinner</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">Travel back in time to change fate itself, in this beautifully crafted story-driven adventure, inspired by classic 90s action-platformers. You must have a copy of Timespinner for Linux copied to the ports/timespinner/gamedata folder.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>action, adventure<br />
+                    <span class="list-label">Porter: </span>Johnny on Flame</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">175 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="col">
+          <!--Card Template -->
+          <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/half-life.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-warning">data required</span><h5 class="card-title" id="title">Half-Life</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">Half-Life is Valve's debut title which blends blends action and adventure with award-winning technology to create a frighteningly realistic world where players must think to survive. You need to have your own copy of the game. You need to copy the steam valve directory from your steam installation.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>fps, action<br />
+                    <span class="list-label">Porter: </span>kloptops</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">404 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>  
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/bermuda_syndrome.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-success">ready to play</span><h5 class="card-title" id="title">Bermuda Syndrome</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">A reimplemntation of the Berumuda Syndrome engine. You will need the original files of the PC release or PC demo copied to the ports/bermuda/DATA folder.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>action<br />
+                    <span class="list-label">Porter: </span>jetup</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">109 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/duke.nukem.3d.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-success">ready to play</span><h5 class="card-title" id="title">Duke Nukem 3D</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">Duke Nukem 3D using the rednukem build open source port by Alexey Khokholov. You'll need to add your own full version duke3d.grp and duke.rts Duke Nukem 3D Atomic files to the ports/rednukem/gamedata folder.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>fps,action<br />
+                    <span class="list-label">Porter: </span>Romadu</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">132 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <!--Card Template -->
+            <div id="card-template" class="card-template hidden">
+              <div class="card shadow-md">
+                <div class="screenshot">
+                  <img id="screenshot" class="card-img-top" alt="screenshot of port" width="100%" height="auto" src="https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/abuse.screenshot.jpg"></img>
+                </div>
+                <div class="card-body">
+                  <div class="title"><span class="badge title-badge text-bg-warning">data required</span><h5 class="card-title" id="title">Abuse</h5></div>
+                  <div class="desc"><p id="desc" class="card-text">A fork of the original Abuse SDL port from http://abuse.zoy.org/. An intense 2D shooter. Plays best on dual analog stick devices. Just download and play.</p></div>
+                  <div class="port-details">
+                    <span class="list-label">Genre(s): </span>action, horror<br />
+                    <span class="list-label">Porter: </span>romadu</p>
+                  </div>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group wiki-buttons">
+                      <a class="btn btn-sm btn-outline-danger" href="#">Details</a>
+                      <a class="btn btn-sm btn-outline-danger" href="#"><i class="bi bi-download"></i></a>
+                    </div>
+                    <div class="downloads"><small class="text-body-secondary">78 downloads</small></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>  
+  <!-- Bottom Nav -->
+  <div class="container">
+    <nav class="navigation mt-4 pt-4">
+      <ul class="pagination justify-content-center">
+        <li class="page-item disabled">
+          <a class="page-link">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link active" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="text-body-secondary py-5">
+  <div class="container">
+    <p class="float-end mb-1">
+      <a href="#">Back to top</a>
+    </p>
+    <p class="mb-1"></p>
+    <p class="mb-0"><!-- bootton content -->></a>.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="bootstrap-5.3.1-examples/assets/js/color-modes.js"></script>
+</body>
+</html>

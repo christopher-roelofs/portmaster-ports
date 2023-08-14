@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
     --bs-purple: #6f42c1;
@@ -65,7 +65,7 @@
     --bs-link-hover-color: #0a58ca;
     --bs-code-color: #d63384;
     --bs-highlight-bg: #fff3cd;
-}
+} */
 
 
 .bg-dark {
@@ -82,9 +82,9 @@
     background: #222;
 }
 
-.me-2 {
-    margin-right: .5rem!important;
-}
+  .me-2 {
+      margin-right: .5rem!important;
+  }
 
 img, svg {
     vertical-align: middle;

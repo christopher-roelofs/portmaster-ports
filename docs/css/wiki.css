@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+#cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+    /* Add padding between the search bar and the row of cards */
+}
+
+.card {
+    width: 325px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 100%;
+    max-width: 300px;
+
+}
+
+h3 {
+    margin-top: 0;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+#clear-button {
+    position: fixed;
+    top: 2px;
+    /* Position above the columns */
+    right: 150px;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+#search-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    /* Add a white background to the search bar */
+}
+
+#filter-bar {
+    position: fixed;
+    /* Position above the columns */
+    right: 15px;
+    
+}
+
+    
+@media screen and (min-width: 768px) {
+
+
+}

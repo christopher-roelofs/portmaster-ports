@@ -21,24 +21,18 @@ function displayCardDetails(data) {
 
     data.downloadcount ? document.getElementById('download_count').innerHTML = textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
 
-    // ```````````````````````````````````````````````````````````````````````````````````````const genreElement``````````````````````````````````````````````````````````````````````````````````````` = document.getElementById('genres');
-     genreElement.textContent = data.attr.genres.join();
-      
-    
-    
-    data.attr.desc ? document.getEleme('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
+
     var taggedGenres = "";
     data.attr.genres.forEach((genre) => {
         taggedGenres += '<span class="genre-item badge bg-secondary">' + genre + '</span>';
     });
-    
-       taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
+    taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
     const runtimeElement = document.getElementById('runtime');
     runtimeElement.textContent = data.attr.runtime ?? 'None';
-                                                                                                                                                                                                                                                                                                                                                                            
+
     const requirementsElement = document.getElementById('reqs');
     requirementsElement.textContent = data.attr.reqs.join();
 
