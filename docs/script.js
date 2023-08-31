@@ -39,7 +39,10 @@ function createCard(data) {
     const paragraph = document.createElement('p');
     paragraph.setAttribute("class","card-text");
     paragraph.setAttribute("style","padding-top: 10px")
-    paragraph.textContent = data.attr.desc;
+
+    var converter = new showdown.Converter();
+
+    paragraph.innerHTML = converter.makeHtml(data.attr.desc);
 
     const porter = document.createElement('p');
     porter.setAttribute("class","card-text");
