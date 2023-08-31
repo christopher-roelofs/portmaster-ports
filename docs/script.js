@@ -1,6 +1,7 @@
 var jsonData = null;
 var countsData = null;
 // Function to create a card element for each JSON object
+// https://discord.gg/JxYBp9HTAY
 function createCard(data) {
 
     const div1 = document.createElement('div');
