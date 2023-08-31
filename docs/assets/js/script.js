@@ -2,54 +2,79 @@ var jsonData = null;
 var countsData = null;
 // Function to create a card element for each JSON object
 function createCard(data) {
-    const cardElement = document.createElement('div');
-    cardElement.className = 'card';
 
-    const titleElement = document.createElement('h3');
-    titleElement.textContent = data.attr.title;
+    const div1 = document.createElement('div');
+    div1.setAttribute("class","col");
 
-    titleElement.addEventListener('click', () => {
-        handleCardClick(data.name);
-    });
-    var image = "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png";
+    const div2 = document.createElement('div');
+    div2.setAttribute("class","card shadow-sm");
+
+    const image = document.createElement("img");
+    var source = "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/no.image.png";
     if (data.attr.media.screenshot !== null) {
-      image =   "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" +  data.attr.media.screenshot;
+        source =   "https://raw.githubusercontent.com/christianhaitian/PortMaster/main/images/" +  data.attr.media.screenshot;
     }
-    const imageElement = document.createElement("img");
-    imageElement.src = image;
-    imageElement.className = "card-img"
+    image.src =  source;
+    image.setAttribute("class","bd-placeholder-img card-img-top");
+    image.setAttribute("width","100%");
+    image.setAttribute("height","100%");
 
-    imageElement.addEventListener('click', () => {
+    image.addEventListener('click', () => {
         handleCardClick(data.name);
     });
 
-    const contentElement = document.createElement('p');
-    contentElement.textContent = "Description: " + data.attr.desc;
+    const div3 = document.createElement('div');
+    div3.setAttribute("class","card-body");
 
-    const instructionElement = document.createElement('p');
-    instructionElement.textContent = "Instructions: " + (data.instructions ?? '');
+    const title = document.createElement('h5');
+    title.setAttribute("class","card-title");
+    title.setAttribute("style","padding: 20px 0px 00px 0px")
+    title.textContent = data.attr.title;
 
+    title.addEventListener('click', () => {
+        handleCardClick(data.name);
+    });
 
-    const genreElement = document.createElement('p');
-    genreElement.textContent = "Genres: " + data.attr.genres.join();
-
-    const porterElement = document.createElement('p');
-    porterElement.textContent = "Porter: " + data.attr.porter;
-
-    const downloadCountElement = document.createElement('p');
-    downloadCountElement.textContent = "Downloads: " + countsData[data.name];
-
-
-    cardElement.appendChild(titleElement);
-    cardElement.appendChild(imageElement);
-    cardElement.appendChild(contentElement);
-    cardElement.appendChild(instructionElement);
-    cardElement.appendChild(genreElement);
-    cardElement.appendChild(porterElement);
-    cardElement.appendChild(downloadCountElement);
+    const paragraph = document.createElement('p');
+    paragraph.setAttribute("class","card-text");
+    paragraph.setAttribute("style","padding: 20px 0px 20px 0px")
+    paragraph.textContent = data.attr.desc;
 
 
-    return cardElement;
+    const div4 = document.createElement('div');
+    div4.setAttribute("class","d-flex justify-content-between align-items-center");
+
+    const div5 = document.createElement('div');
+    div5.setAttribute("class","btn-group");
+
+    const button = document.createElement('button');
+    button.setAttribute("type","button");
+    button.textContent = "Download"
+    button.setAttribute("class","btn btn-sm btn-outline-secondary");
+
+    div5.appendChild(button);
+
+
+
+    const small = document.createElement('small');
+    small.setAttribute("class","text-body-secondary");
+    small.textContent = "Downloads: " + countsData[data.name];
+
+
+    div4.appendChild(small);
+    div4.appendChild(div5);
+    
+
+    div3.appendChild(image);
+    div3.appendChild(title);
+    div3.appendChild(paragraph);
+    div3.appendChild(div4);
+    
+    div2.appendChild(div3)
+    div1.appendChild(div2)
+
+
+    return div1;
 }
 
 // Function to iterate over the JSON data and display cards
@@ -64,8 +89,8 @@ function displayCards(data) {
 
 // Function to filter the cards based on the search query
 function filterCards() {
-    const searchQuery = document.getElementById('search-bar').value.trim().toLowerCase();
-    const readyToRun = document.getElementById('filter-toggle').checked;
+    const searchQuery = document.getElementById('search').value.trim().toLowerCase();
+    const readyToRun = document.getElementById('ready-to-run').checked;
     var filteredData = {}
     var queries = searchQuery.split(" ");
     for (var key of Object.keys(jsonData)) {
@@ -92,12 +117,6 @@ function filterCards() {
 // Function to handle the card title click and redirect to the detail page
 function handleCardClick(name) {
     window.location.href = `detail.html?name=${encodeURIComponent(name)}`;
-}
-
-// Function to clear the search bar and show all cards
-function clearSearch() {
-    document.getElementById('search-bar').value = ''; // Clear the search input
-    filterCards(); // Show all cards again
 }
 
 // Fetch JSON data from the URL and then display the cards
@@ -129,5 +148,6 @@ async function fetchDataAndDisplayCards() {
 // Call the initial fetchDataAndDisplayCards function when the page is loaded
 window.onload = function () {
     fetchDataAndDisplayCards();
-    document.getElementById('search-bar').addEventListener('input', filterCards);
+    // document.getElementById('search-bar').addEventListener('input', filterCards);
 };
+

@@ -85,10 +85,15 @@ async function fetchDataAndDisplayDetails() {
         } else {
             const detailsContainer = document.getElementById('details-container');
             const notFoundElement = document.createElement('p');
-            notFoundElement.textContent = 'Card not found.';
+            notFoundElement.textContent = 'port not found.';
             detailsContainer.appendChild(notFoundElement);
         }
     } catch (error) {
         console.error('Error fetching JSON data:', error);
     }
 }
+
+// Call the initial fetchDataAndDisplayCards function when the page is loaded
+window.onload = function () {
+    fetchDataAndDisplayDetails();
+};
