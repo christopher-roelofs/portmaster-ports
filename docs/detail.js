@@ -16,26 +16,19 @@ function displayCardDetails(data) {
     //data.attr.desc ? document.getEleme('desc').textContent = data.attr.desc : document.getElementsByClassName('desc').hidden = true;
     descriptionElement = document.getElementById('desc');
     descriptionElement.textContent = data.attr.desc;
-    data.attr.instr ? document.getElementById('instr').textContent = data.attr.instr : document.getElementsByClassName('instr').hidden = true;
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
-    data.downloadcount ? document.getElementById('download_count').innerHTML = textContent = data.download_count : document.getElementsByClassName('porter').hidden = true;
+    const downloadCountElement = document.getElementById("download_count");
+    downloadCountElement.textContent = data.download_count;
 
 
     var taggedGenres = "";
     data.attr.genres.forEach((genre) => {
-        taggedGenres += '<span class="genre-item badge bg-secondary">' + genre + '</span>';
+        taggedGenres += '<span class="genre-item badge bg-secondary">' + genre + '</span>' + '<br>';
     });
     taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
-
-    const runtimeElement = document.getElementById('runtime');
-    runtimeElement.textContent = data.attr.runtime ?? 'None';
-
-    const requirementsElement = document.getElementById('reqs');
-    requirementsElement.textContent = data.attr.reqs.join();
-
 
     const downloadElement = document.getElementById("download");
     downloadElement.setAttribute("onclick", "window.location.href='" + data.download_url + "';");
@@ -69,7 +62,7 @@ async function fetchDataAndDisplayDetails() {
         };
 
         try {
-            var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/counts.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+            var response = await fetch('https://raw.githubusercontent.com/PortsMaster/PortMaster-Info/main/port_stats.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
             if (!response.ok) {
                 throw new Error('Network response was not ok.');
             }
@@ -78,7 +71,7 @@ async function fetchDataAndDisplayDetails() {
             console.error('Error fetching JSON data:', error);
         }
 
-        card["download_count"] = countsData[card.name]
+        card["download_count"] = countsData["ports"][card.name]
 
         if (card) {
             displayCardDetails(card);

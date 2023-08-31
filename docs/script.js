@@ -28,7 +28,7 @@ function createCard(data) {
 
     const title = document.createElement('h5');
     title.setAttribute("class","card-title");
-    title.setAttribute("style","padding: 20px 0px 00px 0px")
+    title.setAttribute("style","padding-top: 20px")
     title.textContent = data.attr.title;
 
     title.addEventListener('click', () => {
@@ -37,8 +37,13 @@ function createCard(data) {
 
     const paragraph = document.createElement('p');
     paragraph.setAttribute("class","card-text");
-    paragraph.setAttribute("style","padding: 20px 0px 20px 0px")
+    paragraph.setAttribute("style","padding-top: 10px")
     paragraph.textContent = data.attr.desc;
+
+    const porter = document.createElement('p');
+    porter.setAttribute("class","card-text");
+    porter.setAttribute("style","padding-top: 10px")
+    porter.textContent = "Porter: " + data.attr.porter;
 
 
     const div4 = document.createElement('div');
@@ -51,6 +56,7 @@ function createCard(data) {
     button.setAttribute("type","button");
     button.textContent = "Download"
     button.setAttribute("class","btn btn-sm btn-outline-secondary");
+    button.setAttribute("onclick","window.location.href='"+ data.download_url+ "';");
 
     div5.appendChild(button);
 
@@ -58,7 +64,7 @@ function createCard(data) {
 
     const small = document.createElement('small');
     small.setAttribute("class","text-body-secondary");
-    small.textContent = "Downloads: " + countsData[data.name];
+    small.textContent = "Downloads: " + countsData["ports"][data.name];
 
 
     div4.appendChild(small);
@@ -68,6 +74,7 @@ function createCard(data) {
     div3.appendChild(image);
     div3.appendChild(title);
     div3.appendChild(paragraph);
+    div3.appendChild(porter);
     div3.appendChild(div4);
     
     div2.appendChild(div3)
@@ -123,7 +130,7 @@ function handleCardClick(name) {
 async function fetchDataAndDisplayCards() {
 
     try {
-        var response = await fetch('https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/counts.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
+        var response = await fetch('https://raw.githubusercontent.com/PortsMaster/PortMaster-Info/main/port_stats.json'); // Replace 'YOUR_JSON_URL_HERE' with the actual URL of your JSON data.
         if (!response.ok) {
             throw new Error('Network response was not ok.');
         }
