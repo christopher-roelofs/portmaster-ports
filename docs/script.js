@@ -114,7 +114,7 @@ function filterCards() {
     var queries = searchQuery.split(" ");
     for (var key of Object.keys(jsonData)) {
         queries.forEach(element => {
-            if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element) || jsonData[key].attr.porter.toLowerCase().includes(element)) {
+            if (jsonData[key].attr.title.toLowerCase().includes(element) || jsonData[key].attr.genres.join().toLowerCase().includes(element) || jsonData[key].attr.porter.join().toLowerCase().includes(element)) {
 
                 if (readyToRun){
                     if (jsonData[key].attr.rtr){
