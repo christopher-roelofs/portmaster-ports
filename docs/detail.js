@@ -34,7 +34,7 @@ function displayCardDetails(data) {
     porters.forEach((porter) => {
         porterHtml += '<a href="profile.html?porter=' + porter +'">' + porter + '</a>';
         if(porters.length > 1) {
-            porterHtml += " ";
+            porterHtml += "<br>";
         }
     });
     data.attr.porter ? document.getElementById('porter').innerHTML = porterHtml: document.getElementsByClassName('porter').hidden = true;
