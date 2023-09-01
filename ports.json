@@ -15,7 +15,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -48,7 +50,9 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -67,6 +71,37 @@
         },
         {
             "version": 2,
+            "name": "abombniball.zip",
+            "items": [],
+            "items_opt": null,
+            "attr": {
+                "title": "Abombniball",
+                "desc": "The objective of Abombniball is to defuse all the explosives on each level.",
+                "inst": "",
+                "genres": [
+                    "puzzle"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "abombniball.screenshot.jpg",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/abombniball.zip",
+            "download_size": 2024324,
+            "date_added": "2023-09-01",
+            "date_updated": "2023-09-01"
+        },
+        {
+            "version": 2,
             "name": "profadeluxe.zip",
             "items": [
                 "Abu Simbel Profanation Deluxe.sh",
@@ -81,7 +116,9 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -113,7 +150,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -145,7 +184,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -177,7 +218,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -209,7 +252,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -227,7 +272,7 @@
             "date_updated": "2022-04-28"
         },
         {
-            "   version": 2,
+            "version": 2,
             "name": "avp.zip",
             "items": [
                 "Alien vs Predator.sh",
@@ -242,7 +287,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -276,7 +323,9 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -309,7 +358,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -342,7 +393,10 @@
                     "simulation",
                     "strategy"
                 ],
-                "porter": "Kloptops and Cebion",
+                "porter": [
+                    "kloptops",
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -376,7 +430,11 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Johnny on Flame, Overflask, and Nuxx",
+                "porter": [
+                    "Johnny on Flame",
+                    "Overflask",
+                    "Nuxx"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": "mono-6.12.0.122-aarch64.squashfs",
@@ -406,13 +464,15 @@
                 "desc": "A DDR-style rythm game where the goal is to time the button presses to line up with the music beat.",
                 "inst": "",
                 "genres": [],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
-                "rtr": false,
+                "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "beat2x.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -438,7 +498,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -471,7 +533,10 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Cebion and romadu",
+                "porter": [
+                    "Cebion",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -503,7 +568,10 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Cebion and romadu",
+                "porter": [
+                    "Cebion",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -536,7 +604,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -568,7 +638,10 @@
                 "genres": [
                     "sports"
                 ],
-                "porter": "Cebion and romadu",
+                "porter": [
+                    "Cebion",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -600,7 +673,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -632,7 +707,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -665,7 +742,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -697,7 +776,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -729,7 +810,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -761,7 +844,9 @@
                 "genres": [
                     "racing"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -795,7 +880,9 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -829,7 +916,9 @@
                     "adventure",
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -862,7 +951,9 @@
                     "platformer",
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -881,6 +972,42 @@
         },
         {
             "version": 2,
+            "name": "chasm.zip",
+            "items": [
+                "chasm/",
+                "Chasm.sh"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Chasm",
+                "desc": "Explore the depths below a remote mountain town in this procedurally-generated Adventure Platformer. Taking inspiration from hack 'n slash dungeon crawlers and Metroidvania-style platformers, Chasm will immerse you in a fantasy world full of exciting treasure, deadly enemies, and abundant secrets. You must copy a valid Linux build of the game to the 'chasm/gamedata' folder.",
+                "inst": "",
+                "genres": [
+                    "action",
+                    "adventure",
+                    "platformer"
+                ],
+                "porter": [
+                    "Johnny on Flame"
+                ],
+                "image": {},
+                "rtr": false,
+                "runtime": "mono-6.12.0.122-aarch64.squashfs",
+                "reqs": [],
+                "media": {
+                    "screenshot": null,
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/Chasm.zip",
+            "download_size": 1770437,
+            "date_added": "2023-08-02",
+            "date_updated": "2023-08-02"
+        },
+        {
+            "version": 2,
             "name": "c-dogs.zip",
             "items": [
                 "C-Dogs.sh",
@@ -894,7 +1021,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -926,13 +1055,15 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "cliff_hanger.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -959,7 +1090,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -992,7 +1125,10 @@
                     "simulation",
                     "strategy"
                 ],
-                "porter": "Jetup and Romadu",
+                "porter": [
+                    "Jetup",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1025,7 +1161,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1044,6 +1182,41 @@
         },
         {
             "version": 2,
+            "name": "daikatana.zip",
+            "items": [
+                "daikatana/",
+                "Daikatana.sh"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Daikatana",
+                "desc": "Travel through time to fight a corrupted dictatorship and right the wrongs inflicted on the world. You must add the retail data files from the 'data/' folder to the port's 'daikatana/gamedata/' folder.",
+                "inst": "",
+                "genres": [
+                    "fps",
+                    "action"
+                ],
+                "porter": [
+                    "Johnny on Flame"
+                ],
+                "image": {},
+                "rtr": false,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "daikatana.screenshot.jpg",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/Daikatana.zip",
+            "download_size": 13916633,
+            "date_added": "2023-08-01",
+            "date_updated": "2023-08-01"
+        },
+        {
+            "version": 2,
             "name": "davegnukem.zip",
             "items": [
                 "Dave Gnukem.sh",
@@ -1058,7 +1231,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1090,13 +1265,15 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "deep_sleep.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -1123,13 +1300,15 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "defshot.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -1156,7 +1335,9 @@
                     "simulation",
                     "strategy"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1189,7 +1370,9 @@
                     "action",
                     "rpg"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1221,7 +1404,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1253,7 +1438,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1286,13 +1473,15 @@
                     "strategy",
                     "action"
                 ],
-                "porter": "Tekkenfede",
+                "porter": [
+                    "Tekkenfede"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "domeromantik.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -1319,7 +1508,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1351,7 +1542,9 @@
                 "genres": [
                     "rpg"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1370,6 +1563,40 @@
         },
         {
             "version": 2,
+            "name": "echo_chamber.zip",
+            "items": [
+                "Echo Chamber.sh",
+                "echo_chamber/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Echo Chamber",
+                "desc": "Wizard roguelike, Traverse a dungeon and add a new spell each time you clear a floor.",
+                "inst": "",
+                "genres": [
+                    "rpg"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "echo_chamber.screenshot.png",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/echo_chamber.zip",
+            "download_size": 11597156,
+            "date_added": "2023-08-04",
+            "date_updated": "2023-08-04"
+        },
+        {
+            "version": 2,
             "name": "eity.zip",
             "items": [
                 "Eity.sh",
@@ -1381,7 +1608,9 @@
                 "desc": "Eity is a free rhythm game with cool music in a similar vain to DDR. ",
                 "inst": "",
                 "genres": [],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1413,7 +1642,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1446,7 +1677,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1479,7 +1712,9 @@
                 "genres": [
                     "rpg"
                 ],
-                "porter": "nl255",
+                "porter": [
+                    "nl255"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1512,7 +1747,9 @@
                     "arcade",
                     "racing"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1545,7 +1782,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1577,7 +1816,9 @@
                 "genres": [
                     "arcade"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1610,7 +1851,9 @@
                     "rpg",
                     "strategy"
                 ],
-                "porter": "Kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1643,7 +1886,9 @@
                     "rpg",
                     "strategy"
                 ],
-                "porter": "Orson",
+                "porter": [
+                    "Orson"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1673,13 +1918,15 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Tekkenfede",
+                "porter": [
+                    "Tekkenfede"
+                ],
                 "image": {},
-                "rtr": false,
+                "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "farmner.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -1687,13 +1934,16 @@
             },
             "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/Farmner.zip",
             "download_size": 148411440,
-            "date_added": "2023-07-29",
-            "date_updated": "2023-07-29"
+            "date_added": "2023-09-01",
+            "date_updated": "2023-09-01"
         },
         {
             "version": 2,
             "name": "final_quest.zip",
-            "items": [],
+            "items": [
+                "Final Quest.sh",
+                "final_quest/"
+            ],
             "items_opt": null,
             "attr": {
                 "title": "Final Quest",
@@ -1702,9 +1952,45 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
-                "rtr": false,
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "final_quest.screenshot.jpg",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/final_quest.zip",
+            "download_size": 6405370,
+            "date_added": "2023-07-28",
+            "date_updated": "2023-07-30"
+        },
+        {
+            "version": 2,
+            "name": "fire_and_fondness2.zip",
+            "items": [
+                "Fire and Fondness 2.sh",
+                "fire_and_fondness2/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Fire and Fondness 2",
+                "desc": "A puzzle game about rescuing your loved one from hazardous situations! Also, a send-up of daytime television.",
+                "inst": "",
+                "genres": [
+                    "puzzle"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
@@ -1714,10 +2000,10 @@
                     "video": null
                 }
             },
-            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/final_quest.zip",
-            "download_size": 6405142,
-            "date_added": "2023-07-29",
-            "date_updated": "2023-07-29"
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/fire_and_fondness2.zip",
+            "download_size": 17798768,
+            "date_added": "2023-07-30",
+            "date_updated": "2023-07-30"
         },
         {
             "version": 2,
@@ -1735,7 +2021,9 @@
                     "action",
                     "rpg"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1768,7 +2056,9 @@
                     "strategy",
                     "rpg"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1801,7 +2091,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1833,7 +2125,9 @@
                 "genres": [
                     "rpg"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1847,8 +2141,8 @@
             },
             "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/freedroid.zip",
             "download_size": 245620140,
-            "date_added": "2023-07-29",
-            "date_updated": "2023-07-29"
+            "date_added": "2023-09-01",
+            "date_updated": "2023-09-01"
         },
         {
             "version": 2,
@@ -1865,7 +2159,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1898,7 +2194,9 @@
                     "strategy",
                     "simulation"
                 ],
-                "porter": "Kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1931,7 +2229,9 @@
                     "rpg",
                     "strategy"
                 ],
-                "porter": "kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -1963,7 +2263,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -1993,13 +2295,15 @@
                 "desc": "Gmu is an open source music player for portable gaming consoles and handhelds.  Add your music to the 'ports/gmu-music-player/music' folder for easy access or wherever else you wish as you can browse all storage for files.",
                 "inst": "",
                 "genres": [],
-                "porter": "Slayer366",
+                "porter": [
+                    "Slayer366"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "gmu.music.player.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -2026,7 +2330,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2059,7 +2365,9 @@
                     "platformer",
                     "rpg"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2092,7 +2400,9 @@
                     "action",
                     "platformer"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2124,7 +2434,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2158,7 +2470,9 @@
                     "fps",
                     "action"
                 ],
-                "porter": "Slayer366",
+                "porter": [
+                    "Slayer366"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2190,7 +2504,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2222,7 +2538,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2254,7 +2572,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2286,7 +2606,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2305,6 +2627,40 @@
         },
         {
             "version": 2,
+            "name": "hyperfight.zip",
+            "items": [
+                "Hyperfight.sh",
+                "hyperfight/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Hyperfight",
+                "desc": "HYPERFIGHT is a fighting game where every hit is lethal, and every win counts.",
+                "inst": "",
+                "genres": [
+                    "action"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": null,
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/hyperfight.zip",
+            "download_size": 8242347,
+            "date_added": "2023-07-30",
+            "date_updated": "2023-07-30"
+        },
+        {
+            "version": 2,
             "name": "iconoclasts.zip",
             "items": [
                 "iconoclasts/",
@@ -2319,7 +2675,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2351,7 +2709,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2383,7 +2743,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2415,7 +2777,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2447,7 +2811,9 @@
                 "genres": [
                     "other"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2480,7 +2846,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "krishenriksen (kreal)",
+                "porter": [
+                    "krishenriksen"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2499,6 +2867,74 @@
         },
         {
             "version": 2,
+            "name": "margot_beatrice_adventure.zip",
+            "items": [
+                "Margot-Beatrice Adventure.sh",
+                "margot_beatrice_adventure/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Margot Beatrice Adventure",
+                "desc": "The courageous princess Margot-B\u00e9atrice try to re-take the forest gem but she encounter a terrible (in every way) sorcerer that emprison her in a cristal prison. She now forced to call her animal friends to free her and save the forest.",
+                "inst": "",
+                "genres": [
+                    "adventure"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "margot_beatrice_adventure.screenshot.jpg",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/margot_beatrice_adventure.zip",
+            "download_size": 12544779,
+            "date_added": "2023-07-31",
+            "date_updated": "2023-07-31"
+        },
+        {
+            "version": 2,
+            "name": "maximilien_adventure.zip",
+            "items": [
+                "Maximilien Adventure.sh",
+                "maximilien_adventure/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Maximilien Adventure",
+                "desc": "Maximilien, a young adventure, survive a terrible plane crash. With the help of some locals, he will needs to get through the jungle and find his brother and sister.",
+                "inst": "",
+                "genres": [
+                    "adventure"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "maximilien_adventure.screenshot.png",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/maximilien_adventure.zip",
+            "download_size": 22281900,
+            "date_added": "2023-08-01",
+            "date_updated": "2023-08-01"
+        },
+        {
+            "version": 2,
             "name": "meandmyshadow.zip",
             "items": [
                 "Me and My Shadow.sh",
@@ -2513,7 +2949,9 @@
                     "platformer",
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2546,7 +2984,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2578,7 +3018,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2610,7 +3052,9 @@
                 "genres": [
                     "other"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2643,7 +3087,9 @@
                     "action",
                     "puzzle"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2675,7 +3121,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2707,7 +3155,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -2741,7 +3191,9 @@
                     "platformer",
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2773,7 +3225,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2805,7 +3259,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2837,7 +3293,9 @@
                 "genres": [
                     "arcade"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2869,7 +3327,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2901,7 +3361,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2933,7 +3395,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2965,7 +3429,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "Kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -2997,7 +3463,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3029,7 +3497,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3061,22 +3531,24 @@
                 "genres": [
                     "racing"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "openmrac.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
                 }
             },
             "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/openmrac.zip",
-            "download_size": 5265317,
+            "download_size": 5265395,
             "date_added": "2023-07-24",
-            "date_updated": "2023-07-24"
+            "date_updated": "2023-07-30"
         },
         {
             "version": 2,
@@ -3093,7 +3565,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3125,7 +3599,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3157,7 +3633,9 @@
                 "genres": [
                     "simulation"
                 ],
-                "porter": "Kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3190,7 +3668,9 @@
                     "action",
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3222,13 +3702,15 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "opensyobon.screenshot.png",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -3254,7 +3736,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "nl255",
+                "porter": [
+                    "nl255"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3288,7 +3772,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Orson",
+                "porter": [
+                    "Orson"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3321,7 +3807,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": "mono-6.12.0.122-aarch64.squashfs",
@@ -3353,7 +3841,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3385,7 +3875,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "Tekkenfede",
+                "porter": [
+                    "Tekkenfede"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3417,7 +3909,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "Tekkenfede",
+                "porter": [
+                    "Tekkenfede"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3450,7 +3944,9 @@
                     "action",
                     "other"
                 ],
-                "porter": "Tekkenfede",
+                "porter": [
+                    "Tekkenfede"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3469,6 +3965,40 @@
         },
         {
             "version": 2,
+            "name": "pockettactics.zip",
+            "items": [
+                "Pocket Tactics.sh",
+                "pockettactics/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Pocket Tactics",
+                "desc": "After the collapse of human civilization, rogue warriors fight for scraps on the surface, fighting for what few remnants they can find from the old world, and sheltering in caves from the chemically modified rain that pours like thick soup onto the landscape below.",
+                "inst": "",
+                "genres": [
+                    "strategy"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "pockettactics.screenshot.png",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/pockettactics.zip",
+            "download_size": 15313120,
+            "date_added": "2023-08-02",
+            "date_updated": "2023-08-02"
+        },
+        {
+            "version": 2,
             "name": "powder.zip",
             "items": [
                 "Powder.sh",
@@ -3482,7 +4012,9 @@
                 "genres": [
                     "rpg"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3514,7 +4046,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3546,7 +4080,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3578,7 +4114,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3610,7 +4148,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "brooksytech",
+                "porter": [
+                    "brooksytech"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3642,13 +4182,15 @@
                 "genres": [
                     "arcade"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "raptor.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -3675,7 +4217,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3707,7 +4251,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3739,7 +4285,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3772,7 +4320,10 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "jetup and romadu",
+                "porter": [
+                    "Jetup",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3804,7 +4355,9 @@
                 "genres": [
                     "arcade"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3836,7 +4389,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "JohnnyonFlame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3869,7 +4424,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3901,7 +4458,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3933,7 +4492,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -3965,7 +4526,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -3998,7 +4561,9 @@
                     "simulation",
                     "visual novel"
                 ],
-                "porter": "kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4030,7 +4595,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4062,22 +4629,24 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "rota.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
                 }
             },
             "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/rota.zip",
-            "download_size": 37125504,
+            "download_size": 37125722,
             "date_added": "2023-07-25",
-            "date_updated": "2023-07-25"
+            "date_updated": "2023-07-30"
         },
         {
             "version": 2,
@@ -4094,7 +4663,9 @@
                 "genres": [
                     "racing"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4126,7 +4697,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4158,7 +4731,9 @@
                 "genres": [
                     "adventure"
                 ],
-                "porter": "jtothebell",
+                "porter": [
+                    "jtothebell"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": "mono-6.12.0.122-aarch64.squashfs",
@@ -4191,7 +4766,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4223,7 +4800,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4255,7 +4834,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4268,7 +4849,7 @@
                 }
             },
             "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/SDLPoP.zip",
-            "download_size": 768223,
+            "download_size": 750603,
             "date_added": "2021-09-10",
             "date_updated": "2022-04-28"
         },
@@ -4287,7 +4868,9 @@
                 "genres": [
                     "arcade"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4319,7 +4902,9 @@
                 "genres": [
                     "sports"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4351,7 +4936,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4383,7 +4970,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4415,7 +5004,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4447,7 +5038,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "TheGammaSqueeze",
+                "porter": [
+                    "TheGammaSqueeze"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4479,7 +5072,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4511,7 +5106,9 @@
                 "genres": [
                     "racing"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4543,7 +5140,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4575,7 +5174,10 @@
                 "genres": [
                     "casino/card"
                 ],
-                "porter": "Jetup and Romadu",
+                "porter": [
+                    "Jetup",
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4607,7 +5209,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4639,7 +5243,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4672,7 +5278,9 @@
                     "simulation",
                     "rpg"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": "mono-6.12.0.122-aarch64.squashfs",
@@ -4704,7 +5312,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4736,7 +5346,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4768,7 +5380,9 @@
                 "genres": [
                     "racing"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4800,7 +5414,9 @@
                 "genres": [
                     "simulation"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -4833,7 +5449,9 @@
                     "simulation",
                     "other"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4866,7 +5484,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Slayer366",
+                "porter": [
+                    "Slayer366"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4899,7 +5519,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Johnny on Flame",
+                "porter": [
+                    "Johnny on Flame"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": "mono-6.12.0.122-aarch64.squashfs",
@@ -4931,7 +5553,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4963,7 +5587,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -4996,7 +5622,9 @@
                     "action",
                     "adventure"
                 ],
-                "porter": "Jetup",
+                "porter": [
+                    "Jetup"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -5028,7 +5656,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5060,7 +5690,9 @@
                 "genres": [
                     "rpg"
                 ],
-                "porter": "krishenriksen (kreal)",
+                "porter": [
+                    "krishenriksen"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -5090,7 +5722,9 @@
                 "desc": "Upo is a procedurally generated music game. Your goal is to avoid collision with flying objects in rhytm to the music.",
                 "inst": "",
                 "genres": [],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5122,7 +5756,9 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5154,7 +5790,10 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "kloptops and Snoopy",
+                "porter": [
+                    "kloptops",
+                    "Snoopy"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5186,7 +5825,10 @@
                 "genres": [
                     "strategy"
                 ],
-                "porter": "kloptops and Snoopy",
+                "porter": [
+                    "kloptops",
+                    "Snoopy"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5219,7 +5861,9 @@
                     "strategy",
                     "rpg"
                 ],
-                "porter": "kloptops",
+                "porter": [
+                    "kloptops"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -5251,7 +5895,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Christian_Haitian",
+                "porter": [
+                    "Christian_Haitian"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5283,7 +5929,9 @@
                 "genres": [
                     "action"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5302,6 +5950,40 @@
         },
         {
             "version": 2,
+            "name": "wizardchase.zip",
+            "items": [
+                "Wizardchase.sh",
+                "wizardchase/"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Wizardchase",
+                "desc": "2D retro pacman like arcade game Collect all the treasure in the dungeon! Can you make it to the second level? Good luck!",
+                "inst": "",
+                "genres": [
+                    "arcade"
+                ],
+                "porter": [
+                    "Cebion"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "wizardchase.screenshot.png",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/wizardchase.zip",
+            "download_size": 38465654,
+            "date_added": "2023-08-04",
+            "date_updated": "2023-08-04"
+        },
+        {
+            "version": 2,
             "name": "wizznic.zip",
             "items": [
                 "wizznic/",
@@ -5315,13 +5997,15 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
                 "reqs": [],
                 "media": {
-                    "screenshot": null,
+                    "screenshot": "wizznic.screenshot.jpg",
                     "cover": null,
                     "thumbnail": null,
                     "video": null
@@ -5347,7 +6031,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5379,7 +6065,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "romadu",
+                "porter": [
+                    "romadu"
+                ],
                 "image": {},
                 "rtr": false,
                 "runtime": null,
@@ -5411,7 +6099,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Cebion",
+                "porter": [
+                    "Cebion"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5443,7 +6133,9 @@
                 "genres": [
                     "platformer"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5462,6 +6154,40 @@
         },
         {
             "version": 2,
+            "name": "yatka.zip",
+            "items": [
+                "yatka/",
+                "yatka.sh"
+            ],
+            "items_opt": null,
+            "attr": {
+                "title": "Yatka",
+                "desc": "*To force an higher resolution add --scale2x or higher in the boot script* Clone of tetris with various modes and themes(two classic themes exclusive of this port).",
+                "inst": "",
+                "genres": [
+                    "puzzle"
+                ],
+                "porter": [
+                    "Tekkenfede"
+                ],
+                "image": {},
+                "rtr": true,
+                "runtime": null,
+                "reqs": [],
+                "media": {
+                    "screenshot": "yatka.screenshot.jpg",
+                    "cover": null,
+                    "thumbnail": null,
+                    "video": null
+                }
+            },
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/latest/download/Yatka.zip",
+            "download_size": 15523271,
+            "date_added": "2023-07-31",
+            "date_updated": "2023-07-31"
+        },
+        {
+            "version": 2,
             "name": "zgloom.zip",
             "items": [
                 "ZGloom.sh",
@@ -5475,7 +6201,9 @@
                 "genres": [
                     "fps"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5507,7 +6235,9 @@
                 "genres": [
                     "puzzle"
                 ],
-                "porter": "Bamboozler",
+                "porter": [
+                    "Bamboozler"
+                ],
                 "image": {},
                 "rtr": true,
                 "runtime": null,
@@ -5528,7 +6258,7 @@
     "utils": {
         "mono-6.12.0.122-aarch64.squashfs": {
             "name": "Mono 6.12.0.122",
-            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/download/2023-07-28_1820/mono-6.12.0.122-aarch64.squashfs",
+            "download_url": "https://github.com/PortsMaster/PortMaster-Releases/releases/download/2023-08-29_1747/mono-6.12.0.122-aarch64.squashfs",
             "download_size": 262057984
         },
         "frt_2.1.6.squashfs": {

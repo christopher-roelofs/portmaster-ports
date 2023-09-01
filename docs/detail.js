@@ -29,6 +29,15 @@ function displayCardDetails(data) {
     });
     taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
+    var porters = mapPorters(data.attr.porter);
+    var porterHtml = "";
+    porters.forEach((porter) => {
+        porterHtml += '<a href="profile.html?porter=' + porter +'">' + porter + '</a>';
+        if(porters.length > 1) {
+            porterHtml += ",";
+        }
+    });
+    porter.innerHTML = porterHtml;
     data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
 
     const downloadElement = document.getElementById("download");
