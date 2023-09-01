@@ -135,7 +135,7 @@ function filterCards() {
     socialElement.setAttribute("href",portersData[searchQuery].social)
     webpageElement.setAttribute("href",portersData[searchQuery].webpage)
     supportElement.setAttribute("href",portersData[searchQuery].support)
-    coverElement.src = portersData[searchQuery].image;
+    coverElement.src = (portersData[searchQuery].image ? portersData[searchQuery].image : "https://raw.githubusercontent.com/christopher-roelofs/portmaster-ports/main/default.jpg" );
     coverElement.setAttribute("width", "25%");
     coverElement.setAttribute("height", "25%");
 }
