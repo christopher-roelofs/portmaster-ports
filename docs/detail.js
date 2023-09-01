@@ -29,16 +29,15 @@ function displayCardDetails(data) {
     });
     taggedGenres ? document.getElementById("genres").innerHTML = taggedGenres : true;
 
-    var porters = mapPorters(data.attr.porter);
+    var porters = data.attr.porter;
     var porterHtml = "";
     porters.forEach((porter) => {
         porterHtml += '<a href="profile.html?porter=' + porter +'">' + porter + '</a>';
         if(porters.length > 1) {
-            porterHtml += ",";
+            porterHtml += " ";
         }
     });
-    porter.innerHTML = porterHtml;
-    data.attr.porter ? document.getElementById('porter').textContent = data.attr.porter : document.getElementsByClassName('porter').hidden = true;
+    data.attr.porter ? document.getElementById('porter').innerHTML = porterHtml: document.getElementsByClassName('porter').hidden = true;
 
     const downloadElement = document.getElementById("download");
     downloadElement.setAttribute("onclick", "window.location.href='" + data.download_url + "';");

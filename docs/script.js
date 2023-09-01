@@ -47,12 +47,12 @@ function createCard(data) {
     const porter = document.createElement('p');
     porter.setAttribute("class","card-text");
     porter.setAttribute("style","padding-top: 10px")
-    var porters = mapPorters(data.attr.porter);
+    var porters = data.attr.porter;
     var porterHtml = "Porters: ";
     porters.forEach((porter) => {
         porterHtml += '<a href="profile.html?porter=' + porter +'">' + porter + '</a>';
         if(porters.length > 1) {
-            porterHtml += ",";
+            porterHtml += " ";
         }
     });
     porter.innerHTML = porterHtml;
