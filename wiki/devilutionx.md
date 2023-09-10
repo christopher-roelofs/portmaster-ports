@@ -1,6 +1,6 @@
 
 
-**Controls**
+# Controls
 
 DevilutionX supports most gamepad controls.
 
