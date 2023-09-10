@@ -1,6 +1,28 @@
 
 
-# Controls
+
+
+
+
+- [Developer Notes](#developer-notes)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## Controls
 
 DevilutionX supports most gamepad controls.
 
@@ -24,7 +46,7 @@ Default controller mappings (A/B/X/Y as in Nintendo layout, so the rightmost but
 -   Select + L2: quest log (alt: Start + Y)
 -   Select + R2: spell book (alt: Start + B)
 
-**Developer Notes:**
+## Developer Notes
 
 Build instructions:
 
