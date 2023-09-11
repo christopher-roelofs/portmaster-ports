@@ -209,7 +209,7 @@ Blockquotes can have multiple paragraphs and can have other block elements insid
 > - with items
 ```
 
-## Bold and Italic
+## [Bold and Italic](https://christopher-roelofs.github.io/portmaster-ports/faq.html#bold-and-italic)
 
 You can make text bold or italic.
 
