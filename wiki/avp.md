@@ -12,3 +12,9 @@ The following files are needed:
   (both have the controls setup for each species)
 -  Thanks to [sirlemonhead](https://github.com/neuromancer/avp) and other contributors for this engine. Also thanks to Kreal for the porting work and Rocky5 and Cebion for the packaging for portmaster.
 <br/>
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| **col 3 is**  | right-aligned | $1600 |
+| col 2 is      | *centered*    |   $12 |
+| zebra stripes | ~~are neat~~  |    $1 |
