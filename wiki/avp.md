@@ -13,8 +13,19 @@ The following files are needed:
 -  Thanks to [sirlemonhead](https://github.com/neuromancer/avp) and other contributors for this engine. Also thanks to Kreal for the porting work and Rocky5 and Cebion for the packaging for portmaster.
 <br/>
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| **col 3 is**  | right-aligned | $1600 |
-| col 2 is      | *centered*    |   $12 |
-| zebra stripes | ~~are neat~~  |    $1 |
+## Controls
+
+|PC                |3DS                |Action              |
+|:----------------:|:-----------------:|-------------------:|
+|LEFT              |LEFT               | Move left          |
+|RIGHT             |RIGHT              | Move right         |
+|DOWN              |DOWN               | Look down          |
+|UP                |UP                 | Look up            |
+|Z/C               |A                  | Jump               |
+|X/V               |B/X                | Dash               |
+|ESCAPE            |START              | Pause              |
+|E                 |L+R                | Toggle screenshake |
+|SHIFT+D           |Y+L                | Load state         |
+|SHIFT+S           |Y+R                | Save state         |
+|Hold F9           |Hold SELECT+START+Y| Reset              |
+|F11               |SELECT             | Fullscreen         |
